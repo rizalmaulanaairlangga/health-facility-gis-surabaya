@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Map Surabaya</title>
+
+    <link rel="stylesheet" href="/assets/css/tailwind.css">
+
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet/dist/leaflet.css"
+    />
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+    <div id="map" class="w-full h-[calc(100vh-64px)]"></div>
+
+    <!-- SIDE PANEL -->
+    <div 
+        id="detail-panel"
+        class="fixed top-0 right-0 w-80 h-full bg-white shadow-lg transform translate-x-full transition-transform duration-300 z-[999]"
+    >
+        <div class="p-4 border-b flex justify-between">
+        <h2 class="font-bold">Detail Kecamatan</h2>
+        <button onclick="closePanel()">✕</button>
+        </div>
+
+        <div id="detail-content" class="p-4 text-sm"></div>
+    </div>
+
+    <script>
+        function closePanel() {
+        document.getElementById("detail-panel")
+            .classList.add("translate-x-full");
+        }
+    </script>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script type="module" src="/assets/js/main.js"></script>
+
+</body>
+</html>

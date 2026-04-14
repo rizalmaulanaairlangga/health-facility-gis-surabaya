@@ -1,0 +1,642 @@
+[
+  {
+    "kecamatan": "Karang Pilang",
+    "tahun": 2019,
+    "total_fasilitas": 6,
+    "jumlah_penduduk": 77600,
+    "rasio": 0.00007731958762886597,
+    "rasio_scaled": 0.07731958762886597,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Jambangan",
+    "tahun": 2019,
+    "total_fasilitas": 3,
+    "jumlah_penduduk": 54100,
+    "rasio": 0.00005545286506469501,
+    "rasio_scaled": 0.05545286506469501,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Gayungan",
+    "tahun": 2019,
+    "total_fasilitas": 11,
+    "jumlah_penduduk": 47800,
+    "rasio": 0.0002301255230125523,
+    "rasio_scaled": 0.2301255230125523,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Wonocolo",
+    "tahun": 2019,
+    "total_fasilitas": 21,
+    "jumlah_penduduk": 85300,
+    "rasio": 0.000246189917936694,
+    "rasio_scaled": 0.246189917936694,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Tenggilis Mejoyo",
+    "tahun": 2019,
+    "total_fasilitas": 15,
+    "jumlah_penduduk": 60300,
+    "rasio": 0.0002487562189054726,
+    "rasio_scaled": 0.24875621890547261,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Gunung Anyar",
+    "tahun": 2019,
+    "total_fasilitas": 11,
+    "jumlah_penduduk": 60500,
+    "rasio": 0.0001818181818181818,
+    "rasio_scaled": 0.1818181818181818,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Rungkut",
+    "tahun": 2019,
+    "total_fasilitas": 20,
+    "jumlah_penduduk": 121200,
+    "rasio": 0.00016501650165016502,
+    "rasio_scaled": 0.16501650165016502,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Sukolilo",
+    "tahun": 2019,
+    "total_fasilitas": 23,
+    "jumlah_penduduk": 116900,
+    "rasio": 0.00019674935842600513,
+    "rasio_scaled": 0.19674935842600513,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Mulyorejo",
+    "tahun": 2019,
+    "total_fasilitas": 37,
+    "jumlah_penduduk": 91300,
+    "rasio": 0.00040525739320920046,
+    "rasio_scaled": 0.40525739320920046,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Gubeng",
+    "tahun": 2019,
+    "total_fasilitas": 42,
+    "jumlah_penduduk": 143900,
+    "rasio": 0.00029186935371785963,
+    "rasio_scaled": 0.2918693537178596,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Wonokromo",
+    "tahun": 2019,
+    "total_fasilitas": 39,
+    "jumlah_penduduk": 170000,
+    "rasio": 0.00022941176470588236,
+    "rasio_scaled": 0.22941176470588237,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Dukuh Pakis",
+    "tahun": 2019,
+    "total_fasilitas": 22,
+    "jumlah_penduduk": 62800,
+    "rasio": 0.0003503184713375796,
+    "rasio_scaled": 0.3503184713375796,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Wiyung",
+    "tahun": 2019,
+    "total_fasilitas": 13,
+    "jumlah_penduduk": 74000,
+    "rasio": 0.00017567567567567568,
+    "rasio_scaled": 0.17567567567567569,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Lakarsantri",
+    "tahun": 2019,
+    "total_fasilitas": 12,
+    "jumlah_penduduk": 61900,
+    "rasio": 0.0001938610662358643,
+    "rasio_scaled": 0.1938610662358643,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Sambikerep",
+    "tahun": 2019,
+    "total_fasilitas": 10,
+    "jumlah_penduduk": 66800,
+    "rasio": 0.0001497005988023952,
+    "rasio_scaled": 0.1497005988023952,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Tandes",
+    "tahun": 2019,
+    "total_fasilitas": 13,
+    "jumlah_penduduk": 96600,
+    "rasio": 0.00013457556935817804,
+    "rasio_scaled": 0.13457556935817805,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Suko Manunggal",
+    "tahun": 2019,
+    "total_fasilitas": 13,
+    "jumlah_penduduk": 108200,
+    "rasio": 0.00012014787430683918,
+    "rasio_scaled": 0.12014787430683918,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Sawahan",
+    "tahun": 2019,
+    "total_fasilitas": 16,
+    "jumlah_penduduk": 216400,
+    "rasio": 0.00007393715341959335,
+    "rasio_scaled": 0.07393715341959335,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Tegalsari",
+    "tahun": 2019,
+    "total_fasilitas": 31,
+    "jumlah_penduduk": 108100,
+    "rasio": 0.00028677150786308975,
+    "rasio_scaled": 0.28677150786308975,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Genteng",
+    "tahun": 2019,
+    "total_fasilitas": 23,
+    "jumlah_penduduk": 63200,
+    "rasio": 0.0003639240506329114,
+    "rasio_scaled": 0.3639240506329114,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Tambaksari",
+    "tahun": 2019,
+    "total_fasilitas": 24,
+    "jumlah_penduduk": 239300,
+    "rasio": 0.00010029251984956122,
+    "rasio_scaled": 0.10029251984956122,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Kenjeran",
+    "tahun": 2019,
+    "total_fasilitas": 7,
+    "jumlah_penduduk": 179200,
+    "rasio": 0.0000390625,
+    "rasio_scaled": 0.0390625,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Bulak",
+    "tahun": 2019,
+    "total_fasilitas": 2,
+    "jumlah_penduduk": 46200,
+    "rasio": 0.00004329004329004329,
+    "rasio_scaled": 0.04329004329004329,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Simokerto",
+    "tahun": 2019,
+    "total_fasilitas": 6,
+    "jumlah_penduduk": 104100,
+    "rasio": 0.000057636887608069166,
+    "rasio_scaled": 0.05763688760806916,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Semampir",
+    "tahun": 2019,
+    "total_fasilitas": 9,
+    "jumlah_penduduk": 206400,
+    "rasio": 0.0000436046511627907,
+    "rasio_scaled": 0.0436046511627907,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Pabean Cantian",
+    "tahun": 2019,
+    "total_fasilitas": 10,
+    "jumlah_penduduk": 85900,
+    "rasio": 0.00011641443538998836,
+    "rasio_scaled": 0.11641443538998836,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Bubutan",
+    "tahun": 2019,
+    "total_fasilitas": 5,
+    "jumlah_penduduk": 107800,
+    "rasio": 0.000046382189239332094,
+    "rasio_scaled": 0.04638218923933209,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Krembangan",
+    "tahun": 2019,
+    "total_fasilitas": 11,
+    "jumlah_penduduk": 126700,
+    "rasio": 0.00008681925808997632,
+    "rasio_scaled": 0.08681925808997631,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Asemrowo",
+    "tahun": 2019,
+    "total_fasilitas": 2,
+    "jumlah_penduduk": 49800,
+    "rasio": 0.000040160642570281125,
+    "rasio_scaled": 0.040160642570281124,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Benowo",
+    "tahun": 2019,
+    "total_fasilitas": 4,
+    "jumlah_penduduk": 68400,
+    "rasio": 0.00005847953216374269,
+    "rasio_scaled": 0.058479532163742694,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Pakal",
+    "tahun": 2019,
+    "total_fasilitas": 4,
+    "jumlah_penduduk": 58600,
+    "rasio": 0.00006825938566552901,
+    "rasio_scaled": 0.06825938566552901,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Surabaya",
+    "tahun": 2019,
+    "total_fasilitas": 465,
+    "jumlah_penduduk": 3158900,
+    "rasio": 0.00014720314033366046,
+    "rasio_scaled": 0.14720314033366047,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Karang Pilang",
+    "tahun": 2023,
+    "total_fasilitas": 1,
+    "jumlah_penduduk": 75600,
+    "rasio": 0.000013227513227513228,
+    "rasio_scaled": 0.013227513227513229,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Jambangan",
+    "tahun": 2023,
+    "total_fasilitas": 2,
+    "jumlah_penduduk": 54200,
+    "rasio": 0.00003690036900369004,
+    "rasio_scaled": 0.03690036900369004,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Gayungan",
+    "tahun": 2023,
+    "total_fasilitas": 4,
+    "jumlah_penduduk": 44000,
+    "rasio": 0.0000909090909090909,
+    "rasio_scaled": 0.0909090909090909,
+    "kategori": "tinggi",
+    "warna": "#22c55e"
+  },
+  {
+    "kecamatan": "Wonocolo",
+    "tahun": 2023,
+    "total_fasilitas": 5,
+    "jumlah_penduduk": 80000,
+    "rasio": 0.0000625,
+    "rasio_scaled": 0.0625,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Tenggilis Mejoyo",
+    "tahun": 2023,
+    "total_fasilitas": 2,
+    "jumlah_penduduk": 59000,
+    "rasio": 0.00003389830508474576,
+    "rasio_scaled": 0.03389830508474576,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Gunung Anyar",
+    "tahun": 2023,
+    "total_fasilitas": 1,
+    "jumlah_penduduk": 61600,
+    "rasio": 0.000016233766233766234,
+    "rasio_scaled": 0.016233766233766232,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Rungkut",
+    "tahun": 2023,
+    "total_fasilitas": 3,
+    "jumlah_penduduk": 121900,
+    "rasio": 0.00002461033634126333,
+    "rasio_scaled": 0.02461033634126333,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Sukolilo",
+    "tahun": 2023,
+    "total_fasilitas": 8,
+    "jumlah_penduduk": 115100,
+    "rasio": 0.00006950477845351868,
+    "rasio_scaled": 0.06950477845351868,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Mulyorejo",
+    "tahun": 2023,
+    "total_fasilitas": 6,
+    "jumlah_penduduk": 87600,
+    "rasio": 0.0000684931506849315,
+    "rasio_scaled": 0.0684931506849315,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Gubeng",
+    "tahun": 2023,
+    "total_fasilitas": 8,
+    "jumlah_penduduk": 133800,
+    "rasio": 0.00005979073243647235,
+    "rasio_scaled": 0.05979073243647235,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Wonokromo",
+    "tahun": 2023,
+    "total_fasilitas": 11,
+    "jumlah_penduduk": 155000,
+    "rasio": 0.00007096774193548388,
+    "rasio_scaled": 0.07096774193548387,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Dukuh Pakis",
+    "tahun": 2023,
+    "total_fasilitas": 2,
+    "jumlah_penduduk": 59500,
+    "rasio": 0.00003361344537815126,
+    "rasio_scaled": 0.03361344537815126,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Wiyung",
+    "tahun": 2023,
+    "total_fasilitas": 6,
+    "jumlah_penduduk": 75400,
+    "rasio": 0.00007957559681697613,
+    "rasio_scaled": 0.07957559681697612,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Lakarsantri",
+    "tahun": 2023,
+    "total_fasilitas": 4,
+    "jumlah_penduduk": 64099.99999999999,
+    "rasio": 0.000062402496099844,
+    "rasio_scaled": 0.062402496099844,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Sambikerep",
+    "tahun": 2023,
+    "total_fasilitas": 4,
+    "jumlah_penduduk": 67900,
+    "rasio": 0.000058910162002945506,
+    "rasio_scaled": 0.05891016200294551,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Tandes",
+    "tahun": 2023,
+    "total_fasilitas": 3,
+    "jumlah_penduduk": 91900,
+    "rasio": 0.00003264417845484222,
+    "rasio_scaled": 0.03264417845484222,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Suko Manunggal",
+    "tahun": 2023,
+    "total_fasilitas": 3,
+    "jumlah_penduduk": 104800,
+    "rasio": 0.00002862595419847328,
+    "rasio_scaled": 0.02862595419847328,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Sawahan",
+    "tahun": 2023,
+    "total_fasilitas": 5,
+    "jumlah_penduduk": 199300,
+    "rasio": 0.00002508780732563974,
+    "rasio_scaled": 0.02508780732563974,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Tegalsari",
+    "tahun": 2023,
+    "total_fasilitas": 5,
+    "jumlah_penduduk": 98300,
+    "rasio": 0.0000508646998982706,
+    "rasio_scaled": 0.050864699898270596,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Genteng",
+    "tahun": 2023,
+    "total_fasilitas": 4,
+    "jumlah_penduduk": 58700,
+    "rasio": 0.00006814310051107325,
+    "rasio_scaled": 0.06814310051107325,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Tambaksari",
+    "tahun": 2023,
+    "total_fasilitas": 4,
+    "jumlah_penduduk": 227000,
+    "rasio": 0.00001762114537444934,
+    "rasio_scaled": 0.017621145374449337,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Kenjeran",
+    "tahun": 2023,
+    "total_fasilitas": 4,
+    "jumlah_penduduk": 181300,
+    "rasio": 0.00002206287920573635,
+    "rasio_scaled": 0.02206287920573635,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Bulak",
+    "tahun": 2023,
+    "total_fasilitas": 1,
+    "jumlah_penduduk": 47100,
+    "rasio": 0.000021231422505307857,
+    "rasio_scaled": 0.021231422505307858,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Simokerto",
+    "tahun": 2023,
+    "total_fasilitas": 5,
+    "jumlah_penduduk": 92700,
+    "rasio": 0.00005393743257820928,
+    "rasio_scaled": 0.05393743257820928,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Semampir",
+    "tahun": 2023,
+    "total_fasilitas": 5,
+    "jumlah_penduduk": 182400,
+    "rasio": 0.000027412280701754386,
+    "rasio_scaled": 0.027412280701754388,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Pabean Cantian",
+    "tahun": 2023,
+    "total_fasilitas": 5,
+    "jumlah_penduduk": 74500,
+    "rasio": 0.00006711409395973154,
+    "rasio_scaled": 0.06711409395973154,
+    "kategori": "sedang",
+    "warna": "#facc15"
+  },
+  {
+    "kecamatan": "Bubutan",
+    "tahun": 2023,
+    "total_fasilitas": 3,
+    "jumlah_penduduk": 97300,
+    "rasio": 0.00003083247687564235,
+    "rasio_scaled": 0.030832476875642348,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Krembangan",
+    "tahun": 2023,
+    "total_fasilitas": 3,
+    "jumlah_penduduk": 115300,
+    "rasio": 0.000026019080659150043,
+    "rasio_scaled": 0.026019080659150044,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Asemrowo",
+    "tahun": 2023,
+    "total_fasilitas": 1,
+    "jumlah_penduduk": 48000,
+    "rasio": 0.000020833333333333333,
+    "rasio_scaled": 0.020833333333333332,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Benowo",
+    "tahun": 2023,
+    "total_fasilitas": 3,
+    "jumlah_penduduk": 73300,
+    "rasio": 0.00004092769440654843,
+    "rasio_scaled": 0.040927694406548434,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Pakal",
+    "tahun": 2023,
+    "total_fasilitas": 2,
+    "jumlah_penduduk": 62700,
+    "rasio": 0.00003189792663476874,
+    "rasio_scaled": 0.031897926634768745,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  },
+  {
+    "kecamatan": "Surabaya",
+    "tahun": 2023,
+    "total_fasilitas": 123,
+    "jumlah_penduduk": 3009300,
+    "rasio": 0.000040873292792343735,
+    "rasio_scaled": 0.04087329279234374,
+    "kategori": "rendah",
+    "warna": "#ef4444"
+  }
+]

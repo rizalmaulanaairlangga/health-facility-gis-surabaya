@@ -1,0 +1,23 @@
+# node modules
+node_modules/
+
+# environment variables
+.env
+
+# data mentah (raw data)
+data/raw/
+
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# build
+dist/
+build/

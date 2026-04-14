@@ -1,0 +1,2502 @@
+{
+  "raw": [
+    {
+      "kecamatan": "Karang Pilang",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "5"
+      }
+    },
+    {
+      "kecamatan": "Jambangan",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "2"
+      }
+    },
+    {
+      "kecamatan": "Gayungan",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "4"
+      }
+    },
+    {
+      "kecamatan": "Wonocolo",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "3",
+        "Jumlah Klinik/Balai Kesehatan": "9"
+      }
+    },
+    {
+      "kecamatan": "Tenggilis Mejoyo",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "9"
+      }
+    },
+    {
+      "kecamatan": "Gunung Anyar",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "9"
+      }
+    },
+    {
+      "kecamatan": "Rungkut",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "15"
+      }
+    },
+    {
+      "kecamatan": "Sukolilo",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "2",
+        "Jumlah Puskesmas": "3",
+        "Jumlah Klinik/Balai Kesehatan": "7"
+      }
+    },
+    {
+      "kecamatan": "Mulyorejo",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "19"
+      }
+    },
+    {
+      "kecamatan": "Gubeng",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "5",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "24"
+      }
+    },
+    {
+      "kecamatan": "Wonokromo",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "6",
+        "Jumlah Rumah Sakit Khusus": "2",
+        "Jumlah Puskesmas": "3",
+        "Jumlah Klinik/Balai Kesehatan": "17"
+      }
+    },
+    {
+      "kecamatan": "Dukuh Pakis",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "9"
+      }
+    },
+    {
+      "kecamatan": "Wiyung",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "8"
+      }
+    },
+    {
+      "kecamatan": "Lakarsantri",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "3",
+        "Jumlah Klinik/Balai Kesehatan": "7"
+      }
+    },
+    {
+      "kecamatan": "Sambikerep",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "2",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "5"
+      }
+    },
+    {
+      "kecamatan": "Tandes",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "9"
+      }
+    },
+    {
+      "kecamatan": "Suko Manunggal",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "7"
+      }
+    },
+    {
+      "kecamatan": "Sawahan",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "4",
+        "Jumlah Klinik/Balai Kesehatan": "13"
+      }
+    },
+    {
+      "kecamatan": "Tegalsari",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "11"
+      }
+    },
+    {
+      "kecamatan": "Genteng",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "14"
+      }
+    },
+    {
+      "kecamatan": "Tambaksari",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "3",
+        "Jumlah Klinik/Balai Kesehatan": "14"
+      }
+    },
+    {
+      "kecamatan": "Kenjeran",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "4",
+        "Jumlah Klinik/Balai Kesehatan": "2"
+      }
+    },
+    {
+      "kecamatan": "Bulak",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "2"
+      }
+    },
+    {
+      "kecamatan": "Simokerto",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "1"
+      }
+    },
+    {
+      "kecamatan": "Semampir",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "4",
+        "Jumlah Klinik/Balai Kesehatan": "2"
+      }
+    },
+    {
+      "kecamatan": "Pabean Cantian",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "4",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "4"
+      }
+    },
+    {
+      "kecamatan": "Bubutan",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "2"
+      }
+    },
+    {
+      "kecamatan": "Krembangan",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "3",
+        "Jumlah Klinik/Balai Kesehatan": "10"
+      }
+    },
+    {
+      "kecamatan": "Asemrowo",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "1"
+      }
+    },
+    {
+      "kecamatan": "Benowo",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "1"
+      }
+    },
+    {
+      "kecamatan": "Pakal",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "1"
+      }
+    },
+    {
+      "kecamatan": "Surabaya",
+      "tahun": 2018,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "37",
+        "Jumlah Rumah Sakit Khusus": "22",
+        "Jumlah Puskesmas": "63",
+        "Jumlah Klinik/Balai Kesehatan": "243"
+      }
+    },
+    {
+      "kecamatan": "Karang Pilang",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "5"
+      }
+    },
+    {
+      "kecamatan": "Jambangan",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "1"
+      }
+    },
+    {
+      "kecamatan": "Gayungan",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "7"
+      }
+    },
+    {
+      "kecamatan": "Wonocolo",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "3",
+        "Jumlah Klinik/Balai Kesehatan": "16"
+      }
+    },
+    {
+      "kecamatan": "Tenggilis Mejoyo",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "13"
+      }
+    },
+    {
+      "kecamatan": "Gunung Anyar",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "10"
+      }
+    },
+    {
+      "kecamatan": "Rungkut",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "17"
+      }
+    },
+    {
+      "kecamatan": "Sukolilo",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "2",
+        "Jumlah Puskesmas": "3",
+        "Jumlah Klinik/Balai Kesehatan": "15"
+      }
+    },
+    {
+      "kecamatan": "Mulyorejo",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "31"
+      }
+    },
+    {
+      "kecamatan": "Gubeng",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "5",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "34"
+      }
+    },
+    {
+      "kecamatan": "Wonokromo",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "6",
+        "Jumlah Rumah Sakit Khusus": "2",
+        "Jumlah Puskesmas": "3",
+        "Jumlah Klinik/Balai Kesehatan": "28"
+      }
+    },
+    {
+      "kecamatan": "Dukuh Pakis",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "20"
+      }
+    },
+    {
+      "kecamatan": "Wiyung",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "7"
+      }
+    },
+    {
+      "kecamatan": "Lakarsantri",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "3",
+        "Jumlah Klinik/Balai Kesehatan": "8"
+      }
+    },
+    {
+      "kecamatan": "Sambikerep",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "2",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "6"
+      }
+    },
+    {
+      "kecamatan": "Tandes",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "10"
+      }
+    },
+    {
+      "kecamatan": "Suko Manunggal",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "10"
+      }
+    },
+    {
+      "kecamatan": "Sawahan",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "4",
+        "Jumlah Klinik/Balai Kesehatan": "12"
+      }
+    },
+    {
+      "kecamatan": "Tegalsari",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "26"
+      }
+    },
+    {
+      "kecamatan": "Genteng",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "19"
+      }
+    },
+    {
+      "kecamatan": "Tambaksari",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "3",
+        "Jumlah Klinik/Balai Kesehatan": "21"
+      }
+    },
+    {
+      "kecamatan": "Kenjeran",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "4",
+        "Jumlah Klinik/Balai Kesehatan": "3"
+      }
+    },
+    {
+      "kecamatan": "Bulak",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "1"
+      }
+    },
+    {
+      "kecamatan": "Simokerto",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "1"
+      }
+    },
+    {
+      "kecamatan": "Semampir",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "4",
+        "Jumlah Klinik/Balai Kesehatan": "3"
+      }
+    },
+    {
+      "kecamatan": "Pabean Cantian",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "4",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "5"
+      }
+    },
+    {
+      "kecamatan": "Bubutan",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas": "2",
+        "Jumlah Klinik/Balai Kesehatan": "2"
+      }
+    },
+    {
+      "kecamatan": "Krembangan",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "3",
+        "Jumlah Klinik/Balai Kesehatan": "8"
+      }
+    },
+    {
+      "kecamatan": "Asemrowo",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "1"
+      }
+    },
+    {
+      "kecamatan": "Benowo",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "1"
+      }
+    },
+    {
+      "kecamatan": "Pakal",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas": "1",
+        "Jumlah Klinik/Balai Kesehatan": "2"
+      }
+    },
+    {
+      "kecamatan": "Surabaya",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "37",
+        "Jumlah Rumah Sakit Khusus": "22",
+        "Jumlah Puskesmas": "63",
+        "Jumlah Klinik/Balai Kesehatan": "343"
+      }
+    },
+    {
+      "kecamatan": "Karang Pilang",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Jambangan",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Gayungan",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Wonocolo",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Tenggilis Mejoyo",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Gunung Anyar",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Rungkut",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Sukolilo",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "2",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Mulyorejo",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Gubeng",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "4",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Wonokromo",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "6",
+        "Jumlah Rumah Sakit Khusus": "2",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Dukuh Pakis",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Wiyung",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Lakarsantri",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "3",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Sambikerep",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "2",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Tandes",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "2",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Suko Manunggal",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "2",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Sawahan",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "2",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Tegalsari",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Genteng",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Tambaksari",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "3",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Kenjeran",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "2",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Bulak",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Simokerto",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Semampir",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "4",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Pabean Cantian",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "4",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Bubutan",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Krembangan",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "2",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Asemrowo",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Benowo",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Pakal",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Surabaya",
+      "tahun": 2022,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "40",
+        "Jumlah Rumah Sakit Khusus": "20",
+        "Jumlah Puskesmas Rawat Inap": "22",
+        "Jumlah Puskesmas Non Rawat Inap": "41",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Karang Pilang",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Jambangan",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Gayungan",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Wonocolo",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Tenggilis Mejoyo",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Gunung Anyar",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Rungkut",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Sukolilo",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "2",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Mulyorejo",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Gubeng",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "4",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Wonokromo",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "6",
+        "Jumlah Rumah Sakit Khusus": "2",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Dukuh Pakis",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Wiyung",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Lakarsantri",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "3",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Sambikerep",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "2",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Tandes",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "2",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Suko Manunggal",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "2",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Sawahan",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "2",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Tegalsari",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Genteng",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Tambaksari",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "3",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Kenjeran",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "3",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Bulak",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Simokerto",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Semampir",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "4",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Pabean Cantian",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "4",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Bubutan",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Krembangan",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "2",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Asemrowo",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Benowo",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Pakal",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Surabaya",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "40",
+        "Jumlah Rumah Sakit Khusus": "20",
+        "Jumlah Puskesmas Rawat Inap": "23",
+        "Jumlah Puskesmas Non Rawat Inap": "40",
+        "Jumlah Klinik Pratama": "..."
+      }
+    },
+    {
+      "kecamatan": "Karang Pilang",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "5"
+      }
+    },
+    {
+      "kecamatan": "Jambangan",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "2"
+      }
+    },
+    {
+      "kecamatan": "Gayungan",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "11"
+      }
+    },
+    {
+      "kecamatan": "Wonocolo",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "13"
+      }
+    },
+    {
+      "kecamatan": "Tenggilis Mejoyo",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "7"
+      }
+    },
+    {
+      "kecamatan": "Gunung Anyar",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "9"
+      }
+    },
+    {
+      "kecamatan": "Rungkut",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "21"
+      }
+    },
+    {
+      "kecamatan": "Sukolilo",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "2",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "16"
+      }
+    },
+    {
+      "kecamatan": "Mulyorejo",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "26"
+      }
+    },
+    {
+      "kecamatan": "Gubeng",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "4",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "34"
+      }
+    },
+    {
+      "kecamatan": "Wonokromo",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "6",
+        "Jumlah Rumah Sakit Khusus": "3",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "28"
+      }
+    },
+    {
+      "kecamatan": "Dukuh Pakis",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "25"
+      }
+    },
+    {
+      "kecamatan": "Wiyung",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "7"
+      }
+    },
+    {
+      "kecamatan": "Lakarsantri",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "2",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "3",
+        "Jumlah Klinik Pratama": "7"
+      }
+    },
+    {
+      "kecamatan": "Sambikerep",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "2",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "10"
+      }
+    },
+    {
+      "kecamatan": "Tandes",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "2",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "9"
+      }
+    },
+    {
+      "kecamatan": "Suko Manunggal",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "2",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "11"
+      }
+    },
+    {
+      "kecamatan": "Sawahan",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "2",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "10"
+      }
+    },
+    {
+      "kecamatan": "Tegalsari",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "21"
+      }
+    },
+    {
+      "kecamatan": "Genteng",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "17"
+      }
+    },
+    {
+      "kecamatan": "Tambaksari",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "3",
+        "Jumlah Klinik Pratama": "16"
+      }
+    },
+    {
+      "kecamatan": "Kenjeran",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "3",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "3"
+      }
+    },
+    {
+      "kecamatan": "Bulak",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "2"
+      }
+    },
+    {
+      "kecamatan": "Simokerto",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "3",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "1"
+      }
+    },
+    {
+      "kecamatan": "Semampir",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "4",
+        "Jumlah Klinik Pratama": "7"
+      }
+    },
+    {
+      "kecamatan": "Pabean Cantian",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "4",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "4"
+      }
+    },
+    {
+      "kecamatan": "Bubutan",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "1",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "2",
+        "Jumlah Klinik Pratama": "4"
+      }
+    },
+    {
+      "kecamatan": "Krembangan",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "2",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "12"
+      }
+    },
+    {
+      "kecamatan": "Asemrowo",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "–",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "1"
+      }
+    },
+    {
+      "kecamatan": "Benowo",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "2",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "1",
+        "Jumlah Puskesmas Non Rawat Inap": "–",
+        "Jumlah Klinik Pratama": "2"
+      }
+    },
+    {
+      "kecamatan": "Pakal",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "1",
+        "Jumlah Rumah Sakit Khusus": "–",
+        "Jumlah Puskesmas Rawat Inap": "–",
+        "Jumlah Puskesmas Non Rawat Inap": "1",
+        "Jumlah Klinik Pratama": "1"
+      }
+    },
+    {
+      "kecamatan": "Surabaya",
+      "tahun": 2025,
+      "data": {
+        "Jumlah Rumah Sakit Umum": "47",
+        "Jumlah Rumah Sakit Khusus": "23",
+        "Jumlah Puskesmas Rawat Inap": "23",
+        "Jumlah Puskesmas Non Rawat Inap": "40",
+        "Jumlah Klinik Pratama": "342"
+      }
+    }
+  ],
+  "aggregated": [
+    {
+      "kecamatan": "Karang Pilang",
+      "tahun": 2018,
+      "total_fasilitas": 6
+    },
+    {
+      "kecamatan": "Jambangan",
+      "tahun": 2018,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Gayungan",
+      "tahun": 2018,
+      "total_fasilitas": 8
+    },
+    {
+      "kecamatan": "Wonocolo",
+      "tahun": 2018,
+      "total_fasilitas": 14
+    },
+    {
+      "kecamatan": "Tenggilis Mejoyo",
+      "tahun": 2018,
+      "total_fasilitas": 11
+    },
+    {
+      "kecamatan": "Gunung Anyar",
+      "tahun": 2018,
+      "total_fasilitas": 10
+    },
+    {
+      "kecamatan": "Rungkut",
+      "tahun": 2018,
+      "total_fasilitas": 18
+    },
+    {
+      "kecamatan": "Sukolilo",
+      "tahun": 2018,
+      "total_fasilitas": 15
+    },
+    {
+      "kecamatan": "Mulyorejo",
+      "tahun": 2018,
+      "total_fasilitas": 25
+    },
+    {
+      "kecamatan": "Gubeng",
+      "tahun": 2018,
+      "total_fasilitas": 32
+    },
+    {
+      "kecamatan": "Wonokromo",
+      "tahun": 2018,
+      "total_fasilitas": 28
+    },
+    {
+      "kecamatan": "Dukuh Pakis",
+      "tahun": 2018,
+      "total_fasilitas": 11
+    },
+    {
+      "kecamatan": "Wiyung",
+      "tahun": 2018,
+      "total_fasilitas": 14
+    },
+    {
+      "kecamatan": "Lakarsantri",
+      "tahun": 2018,
+      "total_fasilitas": 11
+    },
+    {
+      "kecamatan": "Sambikerep",
+      "tahun": 2018,
+      "total_fasilitas": 9
+    },
+    {
+      "kecamatan": "Tandes",
+      "tahun": 2018,
+      "total_fasilitas": 12
+    },
+    {
+      "kecamatan": "Suko Manunggal",
+      "tahun": 2018,
+      "total_fasilitas": 10
+    },
+    {
+      "kecamatan": "Sawahan",
+      "tahun": 2018,
+      "total_fasilitas": 17
+    },
+    {
+      "kecamatan": "Tegalsari",
+      "tahun": 2018,
+      "total_fasilitas": 16
+    },
+    {
+      "kecamatan": "Genteng",
+      "tahun": 2018,
+      "total_fasilitas": 18
+    },
+    {
+      "kecamatan": "Tambaksari",
+      "tahun": 2018,
+      "total_fasilitas": 17
+    },
+    {
+      "kecamatan": "Kenjeran",
+      "tahun": 2018,
+      "total_fasilitas": 6
+    },
+    {
+      "kecamatan": "Bulak",
+      "tahun": 2018,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Simokerto",
+      "tahun": 2018,
+      "total_fasilitas": 6
+    },
+    {
+      "kecamatan": "Semampir",
+      "tahun": 2018,
+      "total_fasilitas": 8
+    },
+    {
+      "kecamatan": "Pabean Cantian",
+      "tahun": 2018,
+      "total_fasilitas": 9
+    },
+    {
+      "kecamatan": "Bubutan",
+      "tahun": 2018,
+      "total_fasilitas": 5
+    },
+    {
+      "kecamatan": "Krembangan",
+      "tahun": 2018,
+      "total_fasilitas": 13
+    },
+    {
+      "kecamatan": "Asemrowo",
+      "tahun": 2018,
+      "total_fasilitas": 2
+    },
+    {
+      "kecamatan": "Benowo",
+      "tahun": 2018,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Pakal",
+      "tahun": 2018,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Surabaya",
+      "tahun": 2018,
+      "total_fasilitas": 365
+    },
+    {
+      "kecamatan": "Karang Pilang",
+      "tahun": 2019,
+      "total_fasilitas": 6
+    },
+    {
+      "kecamatan": "Jambangan",
+      "tahun": 2019,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Gayungan",
+      "tahun": 2019,
+      "total_fasilitas": 11
+    },
+    {
+      "kecamatan": "Wonocolo",
+      "tahun": 2019,
+      "total_fasilitas": 21
+    },
+    {
+      "kecamatan": "Tenggilis Mejoyo",
+      "tahun": 2019,
+      "total_fasilitas": 15
+    },
+    {
+      "kecamatan": "Gunung Anyar",
+      "tahun": 2019,
+      "total_fasilitas": 11
+    },
+    {
+      "kecamatan": "Rungkut",
+      "tahun": 2019,
+      "total_fasilitas": 20
+    },
+    {
+      "kecamatan": "Sukolilo",
+      "tahun": 2019,
+      "total_fasilitas": 23
+    },
+    {
+      "kecamatan": "Mulyorejo",
+      "tahun": 2019,
+      "total_fasilitas": 37
+    },
+    {
+      "kecamatan": "Gubeng",
+      "tahun": 2019,
+      "total_fasilitas": 42
+    },
+    {
+      "kecamatan": "Wonokromo",
+      "tahun": 2019,
+      "total_fasilitas": 39
+    },
+    {
+      "kecamatan": "Dukuh Pakis",
+      "tahun": 2019,
+      "total_fasilitas": 22
+    },
+    {
+      "kecamatan": "Wiyung",
+      "tahun": 2019,
+      "total_fasilitas": 13
+    },
+    {
+      "kecamatan": "Lakarsantri",
+      "tahun": 2019,
+      "total_fasilitas": 12
+    },
+    {
+      "kecamatan": "Sambikerep",
+      "tahun": 2019,
+      "total_fasilitas": 10
+    },
+    {
+      "kecamatan": "Tandes",
+      "tahun": 2019,
+      "total_fasilitas": 13
+    },
+    {
+      "kecamatan": "Suko Manunggal",
+      "tahun": 2019,
+      "total_fasilitas": 13
+    },
+    {
+      "kecamatan": "Sawahan",
+      "tahun": 2019,
+      "total_fasilitas": 16
+    },
+    {
+      "kecamatan": "Tegalsari",
+      "tahun": 2019,
+      "total_fasilitas": 31
+    },
+    {
+      "kecamatan": "Genteng",
+      "tahun": 2019,
+      "total_fasilitas": 23
+    },
+    {
+      "kecamatan": "Tambaksari",
+      "tahun": 2019,
+      "total_fasilitas": 24
+    },
+    {
+      "kecamatan": "Kenjeran",
+      "tahun": 2019,
+      "total_fasilitas": 7
+    },
+    {
+      "kecamatan": "Bulak",
+      "tahun": 2019,
+      "total_fasilitas": 2
+    },
+    {
+      "kecamatan": "Simokerto",
+      "tahun": 2019,
+      "total_fasilitas": 6
+    },
+    {
+      "kecamatan": "Semampir",
+      "tahun": 2019,
+      "total_fasilitas": 9
+    },
+    {
+      "kecamatan": "Pabean Cantian",
+      "tahun": 2019,
+      "total_fasilitas": 10
+    },
+    {
+      "kecamatan": "Bubutan",
+      "tahun": 2019,
+      "total_fasilitas": 5
+    },
+    {
+      "kecamatan": "Krembangan",
+      "tahun": 2019,
+      "total_fasilitas": 11
+    },
+    {
+      "kecamatan": "Asemrowo",
+      "tahun": 2019,
+      "total_fasilitas": 2
+    },
+    {
+      "kecamatan": "Benowo",
+      "tahun": 2019,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Pakal",
+      "tahun": 2019,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Surabaya",
+      "tahun": 2019,
+      "total_fasilitas": 465
+    },
+    {
+      "kecamatan": "Karang Pilang",
+      "tahun": 2022,
+      "total_fasilitas": 1
+    },
+    {
+      "kecamatan": "Jambangan",
+      "tahun": 2022,
+      "total_fasilitas": 2
+    },
+    {
+      "kecamatan": "Gayungan",
+      "tahun": 2022,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Wonocolo",
+      "tahun": 2022,
+      "total_fasilitas": 5
+    },
+    {
+      "kecamatan": "Tenggilis Mejoyo",
+      "tahun": 2022,
+      "total_fasilitas": 2
+    },
+    {
+      "kecamatan": "Gunung Anyar",
+      "tahun": 2022,
+      "total_fasilitas": 1
+    },
+    {
+      "kecamatan": "Rungkut",
+      "tahun": 2022,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Sukolilo",
+      "tahun": 2022,
+      "total_fasilitas": 8
+    },
+    {
+      "kecamatan": "Mulyorejo",
+      "tahun": 2022,
+      "total_fasilitas": 6
+    },
+    {
+      "kecamatan": "Gubeng",
+      "tahun": 2022,
+      "total_fasilitas": 8
+    },
+    {
+      "kecamatan": "Wonokromo",
+      "tahun": 2022,
+      "total_fasilitas": 11
+    },
+    {
+      "kecamatan": "Dukuh Pakis",
+      "tahun": 2022,
+      "total_fasilitas": 2
+    },
+    {
+      "kecamatan": "Wiyung",
+      "tahun": 2022,
+      "total_fasilitas": 6
+    },
+    {
+      "kecamatan": "Lakarsantri",
+      "tahun": 2022,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Sambikerep",
+      "tahun": 2022,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Tandes",
+      "tahun": 2022,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Suko Manunggal",
+      "tahun": 2022,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Sawahan",
+      "tahun": 2022,
+      "total_fasilitas": 5
+    },
+    {
+      "kecamatan": "Tegalsari",
+      "tahun": 2022,
+      "total_fasilitas": 5
+    },
+    {
+      "kecamatan": "Genteng",
+      "tahun": 2022,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Tambaksari",
+      "tahun": 2022,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Kenjeran",
+      "tahun": 2022,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Bulak",
+      "tahun": 2022,
+      "total_fasilitas": 1
+    },
+    {
+      "kecamatan": "Simokerto",
+      "tahun": 2022,
+      "total_fasilitas": 5
+    },
+    {
+      "kecamatan": "Semampir",
+      "tahun": 2022,
+      "total_fasilitas": 5
+    },
+    {
+      "kecamatan": "Pabean Cantian",
+      "tahun": 2022,
+      "total_fasilitas": 5
+    },
+    {
+      "kecamatan": "Bubutan",
+      "tahun": 2022,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Krembangan",
+      "tahun": 2022,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Asemrowo",
+      "tahun": 2022,
+      "total_fasilitas": 1
+    },
+    {
+      "kecamatan": "Benowo",
+      "tahun": 2022,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Pakal",
+      "tahun": 2022,
+      "total_fasilitas": 2
+    },
+    {
+      "kecamatan": "Surabaya",
+      "tahun": 2022,
+      "total_fasilitas": 123
+    },
+    {
+      "kecamatan": "Karang Pilang",
+      "tahun": 2023,
+      "total_fasilitas": 1
+    },
+    {
+      "kecamatan": "Jambangan",
+      "tahun": 2023,
+      "total_fasilitas": 2
+    },
+    {
+      "kecamatan": "Gayungan",
+      "tahun": 2023,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Wonocolo",
+      "tahun": 2023,
+      "total_fasilitas": 5
+    },
+    {
+      "kecamatan": "Tenggilis Mejoyo",
+      "tahun": 2023,
+      "total_fasilitas": 2
+    },
+    {
+      "kecamatan": "Gunung Anyar",
+      "tahun": 2023,
+      "total_fasilitas": 1
+    },
+    {
+      "kecamatan": "Rungkut",
+      "tahun": 2023,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Sukolilo",
+      "tahun": 2023,
+      "total_fasilitas": 8
+    },
+    {
+      "kecamatan": "Mulyorejo",
+      "tahun": 2023,
+      "total_fasilitas": 6
+    },
+    {
+      "kecamatan": "Gubeng",
+      "tahun": 2023,
+      "total_fasilitas": 8
+    },
+    {
+      "kecamatan": "Wonokromo",
+      "tahun": 2023,
+      "total_fasilitas": 11
+    },
+    {
+      "kecamatan": "Dukuh Pakis",
+      "tahun": 2023,
+      "total_fasilitas": 2
+    },
+    {
+      "kecamatan": "Wiyung",
+      "tahun": 2023,
+      "total_fasilitas": 6
+    },
+    {
+      "kecamatan": "Lakarsantri",
+      "tahun": 2023,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Sambikerep",
+      "tahun": 2023,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Tandes",
+      "tahun": 2023,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Suko Manunggal",
+      "tahun": 2023,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Sawahan",
+      "tahun": 2023,
+      "total_fasilitas": 5
+    },
+    {
+      "kecamatan": "Tegalsari",
+      "tahun": 2023,
+      "total_fasilitas": 5
+    },
+    {
+      "kecamatan": "Genteng",
+      "tahun": 2023,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Tambaksari",
+      "tahun": 2023,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Kenjeran",
+      "tahun": 2023,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Bulak",
+      "tahun": 2023,
+      "total_fasilitas": 1
+    },
+    {
+      "kecamatan": "Simokerto",
+      "tahun": 2023,
+      "total_fasilitas": 5
+    },
+    {
+      "kecamatan": "Semampir",
+      "tahun": 2023,
+      "total_fasilitas": 5
+    },
+    {
+      "kecamatan": "Pabean Cantian",
+      "tahun": 2023,
+      "total_fasilitas": 5
+    },
+    {
+      "kecamatan": "Bubutan",
+      "tahun": 2023,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Krembangan",
+      "tahun": 2023,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Asemrowo",
+      "tahun": 2023,
+      "total_fasilitas": 1
+    },
+    {
+      "kecamatan": "Benowo",
+      "tahun": 2023,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Pakal",
+      "tahun": 2023,
+      "total_fasilitas": 2
+    },
+    {
+      "kecamatan": "Surabaya",
+      "tahun": 2023,
+      "total_fasilitas": 123
+    },
+    {
+      "kecamatan": "Karang Pilang",
+      "tahun": 2025,
+      "total_fasilitas": 7
+    },
+    {
+      "kecamatan": "Jambangan",
+      "tahun": 2025,
+      "total_fasilitas": 4
+    },
+    {
+      "kecamatan": "Gayungan",
+      "tahun": 2025,
+      "total_fasilitas": 15
+    },
+    {
+      "kecamatan": "Wonocolo",
+      "tahun": 2025,
+      "total_fasilitas": 18
+    },
+    {
+      "kecamatan": "Tenggilis Mejoyo",
+      "tahun": 2025,
+      "total_fasilitas": 10
+    },
+    {
+      "kecamatan": "Gunung Anyar",
+      "tahun": 2025,
+      "total_fasilitas": 10
+    },
+    {
+      "kecamatan": "Rungkut",
+      "tahun": 2025,
+      "total_fasilitas": 25
+    },
+    {
+      "kecamatan": "Sukolilo",
+      "tahun": 2025,
+      "total_fasilitas": 24
+    },
+    {
+      "kecamatan": "Mulyorejo",
+      "tahun": 2025,
+      "total_fasilitas": 32
+    },
+    {
+      "kecamatan": "Gubeng",
+      "tahun": 2025,
+      "total_fasilitas": 43
+    },
+    {
+      "kecamatan": "Wonokromo",
+      "tahun": 2025,
+      "total_fasilitas": 40
+    },
+    {
+      "kecamatan": "Dukuh Pakis",
+      "tahun": 2025,
+      "total_fasilitas": 27
+    },
+    {
+      "kecamatan": "Wiyung",
+      "tahun": 2025,
+      "total_fasilitas": 13
+    },
+    {
+      "kecamatan": "Lakarsantri",
+      "tahun": 2025,
+      "total_fasilitas": 12
+    },
+    {
+      "kecamatan": "Sambikerep",
+      "tahun": 2025,
+      "total_fasilitas": 15
+    },
+    {
+      "kecamatan": "Tandes",
+      "tahun": 2025,
+      "total_fasilitas": 12
+    },
+    {
+      "kecamatan": "Suko Manunggal",
+      "tahun": 2025,
+      "total_fasilitas": 14
+    },
+    {
+      "kecamatan": "Sawahan",
+      "tahun": 2025,
+      "total_fasilitas": 15
+    },
+    {
+      "kecamatan": "Tegalsari",
+      "tahun": 2025,
+      "total_fasilitas": 26
+    },
+    {
+      "kecamatan": "Genteng",
+      "tahun": 2025,
+      "total_fasilitas": 21
+    },
+    {
+      "kecamatan": "Tambaksari",
+      "tahun": 2025,
+      "total_fasilitas": 22
+    },
+    {
+      "kecamatan": "Kenjeran",
+      "tahun": 2025,
+      "total_fasilitas": 7
+    },
+    {
+      "kecamatan": "Bulak",
+      "tahun": 2025,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Simokerto",
+      "tahun": 2025,
+      "total_fasilitas": 6
+    },
+    {
+      "kecamatan": "Semampir",
+      "tahun": 2025,
+      "total_fasilitas": 12
+    },
+    {
+      "kecamatan": "Pabean Cantian",
+      "tahun": 2025,
+      "total_fasilitas": 9
+    },
+    {
+      "kecamatan": "Bubutan",
+      "tahun": 2025,
+      "total_fasilitas": 7
+    },
+    {
+      "kecamatan": "Krembangan",
+      "tahun": 2025,
+      "total_fasilitas": 16
+    },
+    {
+      "kecamatan": "Asemrowo",
+      "tahun": 2025,
+      "total_fasilitas": 2
+    },
+    {
+      "kecamatan": "Benowo",
+      "tahun": 2025,
+      "total_fasilitas": 5
+    },
+    {
+      "kecamatan": "Pakal",
+      "tahun": 2025,
+      "total_fasilitas": 3
+    },
+    {
+      "kecamatan": "Surabaya",
+      "tahun": 2025,
+      "total_fasilitas": 475
+    }
+  ]
+}

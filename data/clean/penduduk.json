@@ -1,0 +1,1030 @@
+{
+  "raw": [
+    {
+      "kecamatan": "Karang Pilang",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "77,6",
+        "Persentase Penduduk": "2,46",
+        "Kepadatan Penduduk per km persegi": "8.402"
+      }
+    },
+    {
+      "kecamatan": "Jambangan",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "54,1",
+        "Persentase Penduduk": "1,71",
+        "Kepadatan Penduduk per km persegi": "12.911"
+      }
+    },
+    {
+      "kecamatan": "Gayungan",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "47,8",
+        "Persentase Penduduk": "1,51",
+        "Kepadatan Penduduk per km persegi": "7.878"
+      }
+    },
+    {
+      "kecamatan": "Wonocolo",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "85,3",
+        "Persentase Penduduk": "2,70",
+        "Kepadatan Penduduk per km persegi": "12.596"
+      }
+    },
+    {
+      "kecamatan": "Tenggilis Mejoyo",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "60,3",
+        "Persentase Penduduk": "1,91",
+        "Kepadatan Penduduk per km persegi": "10.917"
+      }
+    },
+    {
+      "kecamatan": "Gunung Anyar",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "60,5",
+        "Persentase Penduduk": "1,92",
+        "Kepadatan Penduduk per km persegi": "6.231"
+      }
+    },
+    {
+      "kecamatan": "Rungkut",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "121,2",
+        "Persentase Penduduk": "3,84",
+        "Kepadatan Penduduk per km persegi": "5.751"
+      }
+    },
+    {
+      "kecamatan": "Sukolilo",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "116,9",
+        "Persentase Penduduk": "3,70",
+        "Kepadatan Penduduk per km persegi": "4.936"
+      }
+    },
+    {
+      "kecamatan": "Mulyorejo",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "91,3",
+        "Persentase Penduduk": "2,89",
+        "Kepadatan Penduduk per km persegi": "6.426"
+      }
+    },
+    {
+      "kecamatan": "Gubeng",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "143,9",
+        "Persentase Penduduk": "4,55",
+        "Kepadatan Penduduk per km persegi": "18.004"
+      }
+    },
+    {
+      "kecamatan": "Wonokromo",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "170,0",
+        "Persentase Penduduk": "5,38",
+        "Kepadatan Penduduk per km persegi": "20.069"
+      }
+    },
+    {
+      "kecamatan": "Dukuh Pakis",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "62,8",
+        "Persentase Penduduk": "1,99",
+        "Kepadatan Penduduk per km persegi": "6.316"
+      }
+    },
+    {
+      "kecamatan": "Wiyung",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "74,0",
+        "Persentase Penduduk": "2,34",
+        "Kepadatan Penduduk per km persegi": "5.936"
+      }
+    },
+    {
+      "kecamatan": "Lakarsantri",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "61,9",
+        "Persentase Penduduk": "1,96",
+        "Kepadatan Penduduk per km persegi": "3.257"
+      }
+    },
+    {
+      "kecamatan": "Sambikerep",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "66,8",
+        "Persentase Penduduk": "2,11",
+        "Kepadatan Penduduk per km persegi": "2.820"
+      }
+    },
+    {
+      "kecamatan": "Tandes",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "96,6",
+        "Persentase Penduduk": "3,06",
+        "Kepadatan Penduduk per km persegi": "8.725"
+      }
+    },
+    {
+      "kecamatan": "Suko Manunggal",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "108,2",
+        "Persentase Penduduk": "3,43",
+        "Kepadatan Penduduk per km persegi": "11.725"
+      }
+    },
+    {
+      "kecamatan": "Sawahan",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "216,4",
+        "Persentase Penduduk": "6,85",
+        "Kepadatan Penduduk per km persegi": "31.226"
+      }
+    },
+    {
+      "kecamatan": "Tegalsari",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "108,1",
+        "Persentase Penduduk": "3,42",
+        "Kepadatan Penduduk per km persegi": "25.193"
+      }
+    },
+    {
+      "kecamatan": "Genteng",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "63,2",
+        "Persentase Penduduk": "2,00",
+        "Kepadatan Penduduk per km persegi": "15.593"
+      }
+    },
+    {
+      "kecamatan": "Tambaksari",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "239,3",
+        "Persentase Penduduk": "7,57",
+        "Kepadatan Penduduk per km persegi": "26.613"
+      }
+    },
+    {
+      "kecamatan": "Kenjeran",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "179,2",
+        "Persentase Penduduk": "5,67",
+        "Kepadatan Penduduk per km persegi": "23.063"
+      }
+    },
+    {
+      "kecamatan": "Bulak",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "46,2",
+        "Persentase Penduduk": "1,46",
+        "Kepadatan Penduduk per km persegi": "6.870"
+      }
+    },
+    {
+      "kecamatan": "Simokerto",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "104,1",
+        "Persentase Penduduk": "3,30",
+        "Kepadatan Penduduk per km persegi": "40.207"
+      }
+    },
+    {
+      "kecamatan": "Semampir",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "206,4",
+        "Persentase Penduduk": "6,54",
+        "Kepadatan Penduduk per km persegi": "23.566"
+      }
+    },
+    {
+      "kecamatan": "Pabean Cantian",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "85,9",
+        "Persentase Penduduk": "2,72",
+        "Kepadatan Penduduk per km persegi": "12.625"
+      }
+    },
+    {
+      "kecamatan": "Bubutan",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "107,8",
+        "Persentase Penduduk": "3,41",
+        "Kepadatan Penduduk per km persegi": "27.933"
+      }
+    },
+    {
+      "kecamatan": "Krembangan",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "126,7",
+        "Persentase Penduduk": "4,01",
+        "Kepadatan Penduduk per km persegi": "15.196"
+      }
+    },
+    {
+      "kecamatan": "Asemrowo",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "49,8",
+        "Persentase Penduduk": "1,58",
+        "Kepadatan Penduduk per km persegi": "3.226"
+      }
+    },
+    {
+      "kecamatan": "Benowo",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "68,4",
+        "Persentase Penduduk": "2,16",
+        "Kepadatan Penduduk per km persegi": "2.880"
+      }
+    },
+    {
+      "kecamatan": "Pakal",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "58,6",
+        "Persentase Penduduk": "1,85",
+        "Kepadatan Penduduk per km persegi": "2.655"
+      }
+    },
+    {
+      "kecamatan": "Surabaya",
+      "tahun": 2019,
+      "data": {
+        "Jumlah Penduduk": "3.158,9",
+        "Persentase Penduduk": "100,00",
+        "Kepadatan Penduduk per km persegi": "9.497"
+      }
+    },
+    {
+      "kecamatan": "Karang Pilang",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "75,6",
+        "Persentase Penduduk": "2,51",
+        "Kepadatan Penduduk per km persegi": "8.048"
+      }
+    },
+    {
+      "kecamatan": "Jambangan",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "54,2",
+        "Persentase Penduduk": "1,80",
+        "Kepadatan Penduduk per km persegi": "13.220"
+      }
+    },
+    {
+      "kecamatan": "Gayungan",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "44,0",
+        "Persentase Penduduk": "1,46",
+        "Kepadatan Penduduk per km persegi": "7.470"
+      }
+    },
+    {
+      "kecamatan": "Wonocolo",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "80,0",
+        "Persentase Penduduk": "2,66",
+        "Kepadatan Penduduk per km persegi": "12.249"
+      }
+    },
+    {
+      "kecamatan": "Tenggilis Mejoyo",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "59,0",
+        "Persentase Penduduk": "1,96",
+        "Kepadatan Penduduk per km persegi": "10.153"
+      }
+    },
+    {
+      "kecamatan": "Gunung Anyar",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "61,6",
+        "Persentase Penduduk": "2,05",
+        "Kepadatan Penduduk per km persegi": "6.066"
+      }
+    },
+    {
+      "kecamatan": "Rungkut",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "121,9",
+        "Persentase Penduduk": "4,05",
+        "Kepadatan Penduduk per km persegi": "5.323"
+      }
+    },
+    {
+      "kecamatan": "Sukolilo",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "115,1",
+        "Persentase Penduduk": "3,82",
+        "Kepadatan Penduduk per km persegi": "3.818"
+      }
+    },
+    {
+      "kecamatan": "Mulyorejo",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "87,6",
+        "Persentase Penduduk": "2,91",
+        "Kepadatan Penduduk per km persegi": "5.041"
+      }
+    },
+    {
+      "kecamatan": "Gubeng",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "133,8",
+        "Persentase Penduduk": "4,45",
+        "Kepadatan Penduduk per km persegi": "16.937"
+      }
+    },
+    {
+      "kecamatan": "Wonokromo",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "155,0",
+        "Persentase Penduduk": "5,15",
+        "Kepadatan Penduduk per km persegi": "18.765"
+      }
+    },
+    {
+      "kecamatan": "Dukuh Pakis",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "59,5",
+        "Persentase Penduduk": "1,98",
+        "Kepadatan Penduduk per km persegi": "5.802"
+      }
+    },
+    {
+      "kecamatan": "Wiyung",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "75,4",
+        "Persentase Penduduk": "2,50",
+        "Kepadatan Penduduk per km persegi": "6.089"
+      }
+    },
+    {
+      "kecamatan": "Lakarsantri",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "64,1",
+        "Persentase Penduduk": "2,13",
+        "Kepadatan Penduduk per km persegi": "3.390"
+      }
+    },
+    {
+      "kecamatan": "Sambikerep",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "67,9",
+        "Persentase Penduduk": "2,26",
+        "Kepadatan Penduduk per km persegi": "3.957"
+      }
+    },
+    {
+      "kecamatan": "Tandes",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "91,9",
+        "Persentase Penduduk": "3,05",
+        "Kepadatan Penduduk per km persegi": "9.248"
+      }
+    },
+    {
+      "kecamatan": "Suko Manunggal",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "104,8",
+        "Persentase Penduduk": "3,48",
+        "Kepadatan Penduduk per km persegi": "11.304"
+      }
+    },
+    {
+      "kecamatan": "Sawahan",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "199,3",
+        "Persentase Penduduk": "6,62",
+        "Kepadatan Penduduk per km persegi": "27.763"
+      }
+    },
+    {
+      "kecamatan": "Tegalsari",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "98,3",
+        "Persentase Penduduk": "3,27",
+        "Kepadatan Penduduk per km persegi": "22.811"
+      }
+    },
+    {
+      "kecamatan": "Genteng",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "58,7",
+        "Persentase Penduduk": "1,95",
+        "Kepadatan Penduduk per km persegi": "14.468"
+      }
+    },
+    {
+      "kecamatan": "Tambaksari",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "227,0",
+        "Persentase Penduduk": "7,54",
+        "Kepadatan Penduduk per km persegi": "25.306"
+      }
+    },
+    {
+      "kecamatan": "Kenjeran",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "181,3",
+        "Persentase Penduduk": "6,02",
+        "Kepadatan Penduduk per km persegi": "21.304"
+      }
+    },
+    {
+      "kecamatan": "Bulak",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "47,1",
+        "Persentase Penduduk": "1,56",
+        "Kepadatan Penduduk per km persegi": "7.545"
+      }
+    },
+    {
+      "kecamatan": "Simokerto",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "92,7",
+        "Persentase Penduduk": "3,08",
+        "Kepadatan Penduduk per km persegi": "35.511"
+      }
+    },
+    {
+      "kecamatan": "Semampir",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "182,4",
+        "Persentase Penduduk": "6,06",
+        "Kepadatan Penduduk per km persegi": "20.151"
+      }
+    },
+    {
+      "kecamatan": "Pabean Cantian",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "74,5",
+        "Persentase Penduduk": "2,48",
+        "Kepadatan Penduduk per km persegi": "13.593"
+      }
+    },
+    {
+      "kecamatan": "Bubutan",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "97,3",
+        "Persentase Penduduk": "3,23",
+        "Kepadatan Penduduk per km persegi": "25.006"
+      }
+    },
+    {
+      "kecamatan": "Krembangan",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "115,3",
+        "Persentase Penduduk": "3,83",
+        "Kepadatan Penduduk per km persegi": "13.409"
+      }
+    },
+    {
+      "kecamatan": "Asemrowo",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "48,0",
+        "Persentase Penduduk": "1,60",
+        "Kepadatan Penduduk per km persegi": "3.191"
+      }
+    },
+    {
+      "kecamatan": "Benowo",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "73,3",
+        "Persentase Penduduk": "2,44",
+        "Kepadatan Penduduk per km persegi": "2.752"
+      }
+    },
+    {
+      "kecamatan": "Pakal",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "62,7",
+        "Persentase Penduduk": "2,08",
+        "Kepadatan Penduduk per km persegi": "3.377"
+      }
+    },
+    {
+      "kecamatan": "Surabaya",
+      "tahun": 2023,
+      "data": {
+        "Jumlah Penduduk": "3.009,3",
+        "Persentase Penduduk": "100,00",
+        "Kepadatan Penduduk per km persegi": "8.958"
+      }
+    }
+  ],
+  "aggregated": [
+    {
+      "kecamatan": "Karang Pilang",
+      "tahun": 2019,
+      "jumlah_penduduk": 77600,
+      "persentase_penduduk": 2.46,
+      "kepadatan_penduduk": 8402
+    },
+    {
+      "kecamatan": "Jambangan",
+      "tahun": 2019,
+      "jumlah_penduduk": 54100,
+      "persentase_penduduk": 1.71,
+      "kepadatan_penduduk": 12911
+    },
+    {
+      "kecamatan": "Gayungan",
+      "tahun": 2019,
+      "jumlah_penduduk": 47800,
+      "persentase_penduduk": 1.51,
+      "kepadatan_penduduk": 7878
+    },
+    {
+      "kecamatan": "Wonocolo",
+      "tahun": 2019,
+      "jumlah_penduduk": 85300,
+      "persentase_penduduk": 2.7,
+      "kepadatan_penduduk": 12596
+    },
+    {
+      "kecamatan": "Tenggilis Mejoyo",
+      "tahun": 2019,
+      "jumlah_penduduk": 60300,
+      "persentase_penduduk": 1.91,
+      "kepadatan_penduduk": 10917
+    },
+    {
+      "kecamatan": "Gunung Anyar",
+      "tahun": 2019,
+      "jumlah_penduduk": 60500,
+      "persentase_penduduk": 1.92,
+      "kepadatan_penduduk": 6231
+    },
+    {
+      "kecamatan": "Rungkut",
+      "tahun": 2019,
+      "jumlah_penduduk": 121200,
+      "persentase_penduduk": 3.84,
+      "kepadatan_penduduk": 5751
+    },
+    {
+      "kecamatan": "Sukolilo",
+      "tahun": 2019,
+      "jumlah_penduduk": 116900,
+      "persentase_penduduk": 3.7,
+      "kepadatan_penduduk": 4936
+    },
+    {
+      "kecamatan": "Mulyorejo",
+      "tahun": 2019,
+      "jumlah_penduduk": 91300,
+      "persentase_penduduk": 2.89,
+      "kepadatan_penduduk": 6426
+    },
+    {
+      "kecamatan": "Gubeng",
+      "tahun": 2019,
+      "jumlah_penduduk": 143900,
+      "persentase_penduduk": 4.55,
+      "kepadatan_penduduk": 18004
+    },
+    {
+      "kecamatan": "Wonokromo",
+      "tahun": 2019,
+      "jumlah_penduduk": 170000,
+      "persentase_penduduk": 5.38,
+      "kepadatan_penduduk": 20069
+    },
+    {
+      "kecamatan": "Dukuh Pakis",
+      "tahun": 2019,
+      "jumlah_penduduk": 62800,
+      "persentase_penduduk": 1.99,
+      "kepadatan_penduduk": 6316
+    },
+    {
+      "kecamatan": "Wiyung",
+      "tahun": 2019,
+      "jumlah_penduduk": 74000,
+      "persentase_penduduk": 2.34,
+      "kepadatan_penduduk": 5936
+    },
+    {
+      "kecamatan": "Lakarsantri",
+      "tahun": 2019,
+      "jumlah_penduduk": 61900,
+      "persentase_penduduk": 1.96,
+      "kepadatan_penduduk": 3257
+    },
+    {
+      "kecamatan": "Sambikerep",
+      "tahun": 2019,
+      "jumlah_penduduk": 66800,
+      "persentase_penduduk": 2.11,
+      "kepadatan_penduduk": 2820
+    },
+    {
+      "kecamatan": "Tandes",
+      "tahun": 2019,
+      "jumlah_penduduk": 96600,
+      "persentase_penduduk": 3.06,
+      "kepadatan_penduduk": 8725
+    },
+    {
+      "kecamatan": "Suko Manunggal",
+      "tahun": 2019,
+      "jumlah_penduduk": 108200,
+      "persentase_penduduk": 3.43,
+      "kepadatan_penduduk": 11725
+    },
+    {
+      "kecamatan": "Sawahan",
+      "tahun": 2019,
+      "jumlah_penduduk": 216400,
+      "persentase_penduduk": 6.85,
+      "kepadatan_penduduk": 31226
+    },
+    {
+      "kecamatan": "Tegalsari",
+      "tahun": 2019,
+      "jumlah_penduduk": 108100,
+      "persentase_penduduk": 3.42,
+      "kepadatan_penduduk": 25193
+    },
+    {
+      "kecamatan": "Genteng",
+      "tahun": 2019,
+      "jumlah_penduduk": 63200,
+      "persentase_penduduk": 2,
+      "kepadatan_penduduk": 15593
+    },
+    {
+      "kecamatan": "Tambaksari",
+      "tahun": 2019,
+      "jumlah_penduduk": 239300,
+      "persentase_penduduk": 7.57,
+      "kepadatan_penduduk": 26613
+    },
+    {
+      "kecamatan": "Kenjeran",
+      "tahun": 2019,
+      "jumlah_penduduk": 179200,
+      "persentase_penduduk": 5.67,
+      "kepadatan_penduduk": 23063
+    },
+    {
+      "kecamatan": "Bulak",
+      "tahun": 2019,
+      "jumlah_penduduk": 46200,
+      "persentase_penduduk": 1.46,
+      "kepadatan_penduduk": 6870
+    },
+    {
+      "kecamatan": "Simokerto",
+      "tahun": 2019,
+      "jumlah_penduduk": 104100,
+      "persentase_penduduk": 3.3,
+      "kepadatan_penduduk": 40207
+    },
+    {
+      "kecamatan": "Semampir",
+      "tahun": 2019,
+      "jumlah_penduduk": 206400,
+      "persentase_penduduk": 6.54,
+      "kepadatan_penduduk": 23566
+    },
+    {
+      "kecamatan": "Pabean Cantian",
+      "tahun": 2019,
+      "jumlah_penduduk": 85900,
+      "persentase_penduduk": 2.72,
+      "kepadatan_penduduk": 12625
+    },
+    {
+      "kecamatan": "Bubutan",
+      "tahun": 2019,
+      "jumlah_penduduk": 107800,
+      "persentase_penduduk": 3.41,
+      "kepadatan_penduduk": 27933
+    },
+    {
+      "kecamatan": "Krembangan",
+      "tahun": 2019,
+      "jumlah_penduduk": 126700,
+      "persentase_penduduk": 4.01,
+      "kepadatan_penduduk": 15196
+    },
+    {
+      "kecamatan": "Asemrowo",
+      "tahun": 2019,
+      "jumlah_penduduk": 49800,
+      "persentase_penduduk": 1.58,
+      "kepadatan_penduduk": 3226
+    },
+    {
+      "kecamatan": "Benowo",
+      "tahun": 2019,
+      "jumlah_penduduk": 68400,
+      "persentase_penduduk": 2.16,
+      "kepadatan_penduduk": 2880
+    },
+    {
+      "kecamatan": "Pakal",
+      "tahun": 2019,
+      "jumlah_penduduk": 58600,
+      "persentase_penduduk": 1.85,
+      "kepadatan_penduduk": 2655
+    },
+    {
+      "kecamatan": "Surabaya",
+      "tahun": 2019,
+      "jumlah_penduduk": 3158900,
+      "persentase_penduduk": 100,
+      "kepadatan_penduduk": 9497
+    },
+    {
+      "kecamatan": "Karang Pilang",
+      "tahun": 2023,
+      "jumlah_penduduk": 75600,
+      "persentase_penduduk": 2.51,
+      "kepadatan_penduduk": 8048
+    },
+    {
+      "kecamatan": "Jambangan",
+      "tahun": 2023,
+      "jumlah_penduduk": 54200,
+      "persentase_penduduk": 1.8,
+      "kepadatan_penduduk": 13220
+    },
+    {
+      "kecamatan": "Gayungan",
+      "tahun": 2023,
+      "jumlah_penduduk": 44000,
+      "persentase_penduduk": 1.46,
+      "kepadatan_penduduk": 7470
+    },
+    {
+      "kecamatan": "Wonocolo",
+      "tahun": 2023,
+      "jumlah_penduduk": 80000,
+      "persentase_penduduk": 2.66,
+      "kepadatan_penduduk": 12249
+    },
+    {
+      "kecamatan": "Tenggilis Mejoyo",
+      "tahun": 2023,
+      "jumlah_penduduk": 59000,
+      "persentase_penduduk": 1.96,
+      "kepadatan_penduduk": 10153
+    },
+    {
+      "kecamatan": "Gunung Anyar",
+      "tahun": 2023,
+      "jumlah_penduduk": 61600,
+      "persentase_penduduk": 2.05,
+      "kepadatan_penduduk": 6066
+    },
+    {
+      "kecamatan": "Rungkut",
+      "tahun": 2023,
+      "jumlah_penduduk": 121900,
+      "persentase_penduduk": 4.05,
+      "kepadatan_penduduk": 5323
+    },
+    {
+      "kecamatan": "Sukolilo",
+      "tahun": 2023,
+      "jumlah_penduduk": 115100,
+      "persentase_penduduk": 3.82,
+      "kepadatan_penduduk": 3818
+    },
+    {
+      "kecamatan": "Mulyorejo",
+      "tahun": 2023,
+      "jumlah_penduduk": 87600,
+      "persentase_penduduk": 2.91,
+      "kepadatan_penduduk": 5041
+    },
+    {
+      "kecamatan": "Gubeng",
+      "tahun": 2023,
+      "jumlah_penduduk": 133800,
+      "persentase_penduduk": 4.45,
+      "kepadatan_penduduk": 16937
+    },
+    {
+      "kecamatan": "Wonokromo",
+      "tahun": 2023,
+      "jumlah_penduduk": 155000,
+      "persentase_penduduk": 5.15,
+      "kepadatan_penduduk": 18765
+    },
+    {
+      "kecamatan": "Dukuh Pakis",
+      "tahun": 2023,
+      "jumlah_penduduk": 59500,
+      "persentase_penduduk": 1.98,
+      "kepadatan_penduduk": 5802
+    },
+    {
+      "kecamatan": "Wiyung",
+      "tahun": 2023,
+      "jumlah_penduduk": 75400,
+      "persentase_penduduk": 2.5,
+      "kepadatan_penduduk": 6089
+    },
+    {
+      "kecamatan": "Lakarsantri",
+      "tahun": 2023,
+      "jumlah_penduduk": 64099.99999999999,
+      "persentase_penduduk": 2.13,
+      "kepadatan_penduduk": 3390
+    },
+    {
+      "kecamatan": "Sambikerep",
+      "tahun": 2023,
+      "jumlah_penduduk": 67900,
+      "persentase_penduduk": 2.26,
+      "kepadatan_penduduk": 3957
+    },
+    {
+      "kecamatan": "Tandes",
+      "tahun": 2023,
+      "jumlah_penduduk": 91900,
+      "persentase_penduduk": 3.05,
+      "kepadatan_penduduk": 9248
+    },
+    {
+      "kecamatan": "Suko Manunggal",
+      "tahun": 2023,
+      "jumlah_penduduk": 104800,
+      "persentase_penduduk": 3.48,
+      "kepadatan_penduduk": 11304
+    },
+    {
+      "kecamatan": "Sawahan",
+      "tahun": 2023,
+      "jumlah_penduduk": 199300,
+      "persentase_penduduk": 6.62,
+      "kepadatan_penduduk": 27763
+    },
+    {
+      "kecamatan": "Tegalsari",
+      "tahun": 2023,
+      "jumlah_penduduk": 98300,
+      "persentase_penduduk": 3.27,
+      "kepadatan_penduduk": 22811
+    },
+    {
+      "kecamatan": "Genteng",
+      "tahun": 2023,
+      "jumlah_penduduk": 58700,
+      "persentase_penduduk": 1.95,
+      "kepadatan_penduduk": 14468
+    },
+    {
+      "kecamatan": "Tambaksari",
+      "tahun": 2023,
+      "jumlah_penduduk": 227000,
+      "persentase_penduduk": 7.54,
+      "kepadatan_penduduk": 25306
+    },
+    {
+      "kecamatan": "Kenjeran",
+      "tahun": 2023,
+      "jumlah_penduduk": 181300,
+      "persentase_penduduk": 6.02,
+      "kepadatan_penduduk": 21304
+    },
+    {
+      "kecamatan": "Bulak",
+      "tahun": 2023,
+      "jumlah_penduduk": 47100,
+      "persentase_penduduk": 1.56,
+      "kepadatan_penduduk": 7545
+    },
+    {
+      "kecamatan": "Simokerto",
+      "tahun": 2023,
+      "jumlah_penduduk": 92700,
+      "persentase_penduduk": 3.08,
+      "kepadatan_penduduk": 35511
+    },
+    {
+      "kecamatan": "Semampir",
+      "tahun": 2023,
+      "jumlah_penduduk": 182400,
+      "persentase_penduduk": 6.06,
+      "kepadatan_penduduk": 20151
+    },
+    {
+      "kecamatan": "Pabean Cantian",
+      "tahun": 2023,
+      "jumlah_penduduk": 74500,
+      "persentase_penduduk": 2.48,
+      "kepadatan_penduduk": 13593
+    },
+    {
+      "kecamatan": "Bubutan",
+      "tahun": 2023,
+      "jumlah_penduduk": 97300,
+      "persentase_penduduk": 3.23,
+      "kepadatan_penduduk": 25006
+    },
+    {
+      "kecamatan": "Krembangan",
+      "tahun": 2023,
+      "jumlah_penduduk": 115300,
+      "persentase_penduduk": 3.83,
+      "kepadatan_penduduk": 13409
+    },
+    {
+      "kecamatan": "Asemrowo",
+      "tahun": 2023,
+      "jumlah_penduduk": 48000,
+      "persentase_penduduk": 1.6,
+      "kepadatan_penduduk": 3191
+    },
+    {
+      "kecamatan": "Benowo",
+      "tahun": 2023,
+      "jumlah_penduduk": 73300,
+      "persentase_penduduk": 2.44,
+      "kepadatan_penduduk": 2752
+    },
+    {
+      "kecamatan": "Pakal",
+      "tahun": 2023,
+      "jumlah_penduduk": 62700,
+      "persentase_penduduk": 2.08,
+      "kepadatan_penduduk": 3377
+    },
+    {
+      "kecamatan": "Surabaya",
+      "tahun": 2023,
+      "jumlah_penduduk": 3009300,
+      "persentase_penduduk": 100,
+      "kepadatan_penduduk": 8958
+    }
+  ]
+}
