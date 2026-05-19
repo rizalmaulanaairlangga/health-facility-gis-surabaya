@@ -1,0 +1,374 @@
+[
+  {
+    "kecamatan": "Karang Pilang",
+    "tahun": 2019,
+    "jumlah_penduduk": 77600,
+    "kepadatan_penduduk": 8402
+  },
+  {
+    "kecamatan": "Jambangan",
+    "tahun": 2019,
+    "jumlah_penduduk": 54100,
+    "kepadatan_penduduk": 12911
+  },
+  {
+    "kecamatan": "Gayungan",
+    "tahun": 2019,
+    "jumlah_penduduk": 47800,
+    "kepadatan_penduduk": 7878
+  },
+  {
+    "kecamatan": "Wonocolo",
+    "tahun": 2019,
+    "jumlah_penduduk": 85300,
+    "kepadatan_penduduk": 12596
+  },
+  {
+    "kecamatan": "Tenggilis Mejoyo",
+    "tahun": 2019,
+    "jumlah_penduduk": 60300,
+    "kepadatan_penduduk": 10917
+  },
+  {
+    "kecamatan": "Gunung Anyar",
+    "tahun": 2019,
+    "jumlah_penduduk": 60500,
+    "kepadatan_penduduk": 6231
+  },
+  {
+    "kecamatan": "Rungkut",
+    "tahun": 2019,
+    "jumlah_penduduk": 121200,
+    "kepadatan_penduduk": 5751
+  },
+  {
+    "kecamatan": "Sukolilo",
+    "tahun": 2019,
+    "jumlah_penduduk": 116900,
+    "kepadatan_penduduk": 4936
+  },
+  {
+    "kecamatan": "Mulyorejo",
+    "tahun": 2019,
+    "jumlah_penduduk": 91300,
+    "kepadatan_penduduk": 6426
+  },
+  {
+    "kecamatan": "Gubeng",
+    "tahun": 2019,
+    "jumlah_penduduk": 143900,
+    "kepadatan_penduduk": 18004
+  },
+  {
+    "kecamatan": "Wonokromo",
+    "tahun": 2019,
+    "jumlah_penduduk": 170000,
+    "kepadatan_penduduk": 20069
+  },
+  {
+    "kecamatan": "Dukuh Pakis",
+    "tahun": 2019,
+    "jumlah_penduduk": 62800,
+    "kepadatan_penduduk": 6316
+  },
+  {
+    "kecamatan": "Wiyung",
+    "tahun": 2019,
+    "jumlah_penduduk": 74000,
+    "kepadatan_penduduk": 5936
+  },
+  {
+    "kecamatan": "Lakarsantri",
+    "tahun": 2019,
+    "jumlah_penduduk": 61900,
+    "kepadatan_penduduk": 3257
+  },
+  {
+    "kecamatan": "Sambikerep",
+    "tahun": 2019,
+    "jumlah_penduduk": 66800,
+    "kepadatan_penduduk": 2820
+  },
+  {
+    "kecamatan": "Tandes",
+    "tahun": 2019,
+    "jumlah_penduduk": 96600,
+    "kepadatan_penduduk": 8725
+  },
+  {
+    "kecamatan": "Suko Manunggal",
+    "tahun": 2019,
+    "jumlah_penduduk": 108200,
+    "kepadatan_penduduk": 11725
+  },
+  {
+    "kecamatan": "Sawahan",
+    "tahun": 2019,
+    "jumlah_penduduk": 216400,
+    "kepadatan_penduduk": 31226
+  },
+  {
+    "kecamatan": "Tegalsari",
+    "tahun": 2019,
+    "jumlah_penduduk": 108100,
+    "kepadatan_penduduk": 25193
+  },
+  {
+    "kecamatan": "Genteng",
+    "tahun": 2019,
+    "jumlah_penduduk": 63200,
+    "kepadatan_penduduk": 15593
+  },
+  {
+    "kecamatan": "Tambaksari",
+    "tahun": 2019,
+    "jumlah_penduduk": 239300,
+    "kepadatan_penduduk": 26613
+  },
+  {
+    "kecamatan": "Kenjeran",
+    "tahun": 2019,
+    "jumlah_penduduk": 179200,
+    "kepadatan_penduduk": 23063
+  },
+  {
+    "kecamatan": "Bulak",
+    "tahun": 2019,
+    "jumlah_penduduk": 46200,
+    "kepadatan_penduduk": 6870
+  },
+  {
+    "kecamatan": "Simokerto",
+    "tahun": 2019,
+    "jumlah_penduduk": 104100,
+    "kepadatan_penduduk": 40207
+  },
+  {
+    "kecamatan": "Semampir",
+    "tahun": 2019,
+    "jumlah_penduduk": 206400,
+    "kepadatan_penduduk": 23566
+  },
+  {
+    "kecamatan": "Pabean Cantian",
+    "tahun": 2019,
+    "jumlah_penduduk": 85900,
+    "kepadatan_penduduk": 12625
+  },
+  {
+    "kecamatan": "Bubutan",
+    "tahun": 2019,
+    "jumlah_penduduk": 107800,
+    "kepadatan_penduduk": 27933
+  },
+  {
+    "kecamatan": "Krembangan",
+    "tahun": 2019,
+    "jumlah_penduduk": 126700,
+    "kepadatan_penduduk": 15196
+  },
+  {
+    "kecamatan": "Asemrowo",
+    "tahun": 2019,
+    "jumlah_penduduk": 49800,
+    "kepadatan_penduduk": 3226
+  },
+  {
+    "kecamatan": "Benowo",
+    "tahun": 2019,
+    "jumlah_penduduk": 68400,
+    "kepadatan_penduduk": 2880
+  },
+  {
+    "kecamatan": "Pakal",
+    "tahun": 2019,
+    "jumlah_penduduk": 58600,
+    "kepadatan_penduduk": 2655
+  },
+  {
+    "kecamatan": "Karang Pilang",
+    "tahun": 2023,
+    "jumlah_penduduk": 75600,
+    "kepadatan_penduduk": 8048
+  },
+  {
+    "kecamatan": "Jambangan",
+    "tahun": 2023,
+    "jumlah_penduduk": 54200,
+    "kepadatan_penduduk": 13220
+  },
+  {
+    "kecamatan": "Gayungan",
+    "tahun": 2023,
+    "jumlah_penduduk": 44000,
+    "kepadatan_penduduk": 7470
+  },
+  {
+    "kecamatan": "Wonocolo",
+    "tahun": 2023,
+    "jumlah_penduduk": 80000,
+    "kepadatan_penduduk": 12249
+  },
+  {
+    "kecamatan": "Tenggilis Mejoyo",
+    "tahun": 2023,
+    "jumlah_penduduk": 59000,
+    "kepadatan_penduduk": 10153
+  },
+  {
+    "kecamatan": "Gunung Anyar",
+    "tahun": 2023,
+    "jumlah_penduduk": 61600,
+    "kepadatan_penduduk": 6066
+  },
+  {
+    "kecamatan": "Rungkut",
+    "tahun": 2023,
+    "jumlah_penduduk": 121900,
+    "kepadatan_penduduk": 5323
+  },
+  {
+    "kecamatan": "Sukolilo",
+    "tahun": 2023,
+    "jumlah_penduduk": 115100,
+    "kepadatan_penduduk": 3818
+  },
+  {
+    "kecamatan": "Mulyorejo",
+    "tahun": 2023,
+    "jumlah_penduduk": 87600,
+    "kepadatan_penduduk": 5041
+  },
+  {
+    "kecamatan": "Gubeng",
+    "tahun": 2023,
+    "jumlah_penduduk": 133800,
+    "kepadatan_penduduk": 16937
+  },
+  {
+    "kecamatan": "Wonokromo",
+    "tahun": 2023,
+    "jumlah_penduduk": 155000,
+    "kepadatan_penduduk": 18765
+  },
+  {
+    "kecamatan": "Dukuh Pakis",
+    "tahun": 2023,
+    "jumlah_penduduk": 59500,
+    "kepadatan_penduduk": 5802
+  },
+  {
+    "kecamatan": "Wiyung",
+    "tahun": 2023,
+    "jumlah_penduduk": 75400,
+    "kepadatan_penduduk": 6089
+  },
+  {
+    "kecamatan": "Lakarsantri",
+    "tahun": 2023,
+    "jumlah_penduduk": 64100,
+    "kepadatan_penduduk": 3390
+  },
+  {
+    "kecamatan": "Sambikerep",
+    "tahun": 2023,
+    "jumlah_penduduk": 67900,
+    "kepadatan_penduduk": 3957
+  },
+  {
+    "kecamatan": "Tandes",
+    "tahun": 2023,
+    "jumlah_penduduk": 91900,
+    "kepadatan_penduduk": 9248
+  },
+  {
+    "kecamatan": "Suko Manunggal",
+    "tahun": 2023,
+    "jumlah_penduduk": 104800,
+    "kepadatan_penduduk": 11304
+  },
+  {
+    "kecamatan": "Sawahan",
+    "tahun": 2023,
+    "jumlah_penduduk": 199300,
+    "kepadatan_penduduk": 27763
+  },
+  {
+    "kecamatan": "Tegalsari",
+    "tahun": 2023,
+    "jumlah_penduduk": 98300,
+    "kepadatan_penduduk": 22811
+  },
+  {
+    "kecamatan": "Genteng",
+    "tahun": 2023,
+    "jumlah_penduduk": 58700,
+    "kepadatan_penduduk": 14468
+  },
+  {
+    "kecamatan": "Tambaksari",
+    "tahun": 2023,
+    "jumlah_penduduk": 227000,
+    "kepadatan_penduduk": 25306
+  },
+  {
+    "kecamatan": "Kenjeran",
+    "tahun": 2023,
+    "jumlah_penduduk": 181300,
+    "kepadatan_penduduk": 21304
+  },
+  {
+    "kecamatan": "Bulak",
+    "tahun": 2023,
+    "jumlah_penduduk": 47100,
+    "kepadatan_penduduk": 7545
+  },
+  {
+    "kecamatan": "Simokerto",
+    "tahun": 2023,
+    "jumlah_penduduk": 92700,
+    "kepadatan_penduduk": 35511
+  },
+  {
+    "kecamatan": "Semampir",
+    "tahun": 2023,
+    "jumlah_penduduk": 182400,
+    "kepadatan_penduduk": 20151
+  },
+  {
+    "kecamatan": "Pabean Cantian",
+    "tahun": 2023,
+    "jumlah_penduduk": 74500,
+    "kepadatan_penduduk": 13593
+  },
+  {
+    "kecamatan": "Bubutan",
+    "tahun": 2023,
+    "jumlah_penduduk": 97300,
+    "kepadatan_penduduk": 25006
+  },
+  {
+    "kecamatan": "Krembangan",
+    "tahun": 2023,
+    "jumlah_penduduk": 115300,
+    "kepadatan_penduduk": 13409
+  },
+  {
+    "kecamatan": "Asemrowo",
+    "tahun": 2023,
+    "jumlah_penduduk": 48000,
+    "kepadatan_penduduk": 3191
+  },
+  {
+    "kecamatan": "Benowo",
+    "tahun": 2023,
+    "jumlah_penduduk": 73300,
+    "kepadatan_penduduk": 2752
+  },
+  {
+    "kecamatan": "Pakal",
+    "tahun": 2023,
+    "jumlah_penduduk": 62700,
+    "kepadatan_penduduk": 3377
+  }
+]

@@ -1,0 +1,560 @@
+[
+  {
+    "kecamatan": "Karang Pilang",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 5,
+    "total_faskes": 6
+  },
+  {
+    "kecamatan": "Jambangan",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 1,
+    "total_faskes": 3
+  },
+  {
+    "kecamatan": "Gayungan",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 2,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 7,
+    "total_faskes": 11
+  },
+  {
+    "kecamatan": "Wonocolo",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 3,
+    "jumlah_klinik": 16,
+    "total_faskes": 21
+  },
+  {
+    "kecamatan": "Tenggilis Mejoyo",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 13,
+    "total_faskes": 15
+  },
+  {
+    "kecamatan": "Gunung Anyar",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 10,
+    "total_faskes": 11
+  },
+  {
+    "kecamatan": "Rungkut",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 17,
+    "total_faskes": 20
+  },
+  {
+    "kecamatan": "Sukolilo",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 3,
+    "jumlah_rumah_sakit_khusus": 2,
+    "jumlah_puskesmas": 3,
+    "jumlah_klinik": 15,
+    "total_faskes": 23
+  },
+  {
+    "kecamatan": "Mulyorejo",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 3,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 31,
+    "total_faskes": 37
+  },
+  {
+    "kecamatan": "Gubeng",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 5,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 34,
+    "total_faskes": 42
+  },
+  {
+    "kecamatan": "Wonokromo",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 6,
+    "jumlah_rumah_sakit_khusus": 2,
+    "jumlah_puskesmas": 3,
+    "jumlah_klinik": 28,
+    "total_faskes": 39
+  },
+  {
+    "kecamatan": "Dukuh Pakis",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 20,
+    "total_faskes": 22
+  },
+  {
+    "kecamatan": "Wiyung",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 3,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 7,
+    "total_faskes": 13
+  },
+  {
+    "kecamatan": "Lakarsantri",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 3,
+    "jumlah_klinik": 8,
+    "total_faskes": 12
+  },
+  {
+    "kecamatan": "Sambikerep",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 2,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 6,
+    "total_faskes": 10
+  },
+  {
+    "kecamatan": "Tandes",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 10,
+    "total_faskes": 13
+  },
+  {
+    "kecamatan": "Suko Manunggal",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 10,
+    "total_faskes": 13
+  },
+  {
+    "kecamatan": "Sawahan",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 4,
+    "jumlah_klinik": 12,
+    "total_faskes": 16
+  },
+  {
+    "kecamatan": "Tegalsari",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 2,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 26,
+    "total_faskes": 31
+  },
+  {
+    "kecamatan": "Genteng",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 19,
+    "total_faskes": 23
+  },
+  {
+    "kecamatan": "Tambaksari",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 3,
+    "jumlah_klinik": 21,
+    "total_faskes": 24
+  },
+  {
+    "kecamatan": "Kenjeran",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 4,
+    "jumlah_klinik": 3,
+    "total_faskes": 7
+  },
+  {
+    "kecamatan": "Bulak",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 1,
+    "total_faskes": 2
+  },
+  {
+    "kecamatan": "Simokerto",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 3,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 1,
+    "total_faskes": 6
+  },
+  {
+    "kecamatan": "Semampir",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 4,
+    "jumlah_klinik": 3,
+    "total_faskes": 9
+  },
+  {
+    "kecamatan": "Pabean Cantian",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 4,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 5,
+    "total_faskes": 10
+  },
+  {
+    "kecamatan": "Bubutan",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 2,
+    "total_faskes": 5
+  },
+  {
+    "kecamatan": "Krembangan",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 3,
+    "jumlah_klinik": 8,
+    "total_faskes": 11
+  },
+  {
+    "kecamatan": "Asemrowo",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 1,
+    "total_faskes": 2
+  },
+  {
+    "kecamatan": "Benowo",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 2,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 1,
+    "total_faskes": 4
+  },
+  {
+    "kecamatan": "Pakal",
+    "tahun": 2019,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 2,
+    "total_faskes": 4
+  },
+  {
+    "kecamatan": "Karang Pilang",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 5,
+    "total_faskes": 6
+  },
+  {
+    "kecamatan": "Jambangan",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 2,
+    "total_faskes": 4
+  },
+  {
+    "kecamatan": "Gayungan",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 2,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 11,
+    "total_faskes": 15
+  },
+  {
+    "kecamatan": "Wonocolo",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 3,
+    "jumlah_klinik": 13,
+    "total_faskes": 18
+  },
+  {
+    "kecamatan": "Tenggilis Mejoyo",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 7,
+    "total_faskes": 9
+  },
+  {
+    "kecamatan": "Gunung Anyar",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 9,
+    "total_faskes": 10
+  },
+  {
+    "kecamatan": "Rungkut",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 21,
+    "total_faskes": 24
+  },
+  {
+    "kecamatan": "Sukolilo",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 3,
+    "jumlah_rumah_sakit_khusus": 2,
+    "jumlah_puskesmas": 3,
+    "jumlah_klinik": 16,
+    "total_faskes": 24
+  },
+  {
+    "kecamatan": "Mulyorejo",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 3,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 26,
+    "total_faskes": 32
+  },
+  {
+    "kecamatan": "Gubeng",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 2,
+    "jumlah_rumah_sakit_khusus": 4,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 34,
+    "total_faskes": 42
+  },
+  {
+    "kecamatan": "Wonokromo",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 6,
+    "jumlah_rumah_sakit_khusus": 2,
+    "jumlah_puskesmas": 3,
+    "jumlah_klinik": 28,
+    "total_faskes": 39
+  },
+  {
+    "kecamatan": "Dukuh Pakis",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 25,
+    "total_faskes": 27
+  },
+  {
+    "kecamatan": "Wiyung",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 3,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 7,
+    "total_faskes": 13
+  },
+  {
+    "kecamatan": "Lakarsantri",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 3,
+    "jumlah_klinik": 7,
+    "total_faskes": 11
+  },
+  {
+    "kecamatan": "Sambikerep",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 2,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 10,
+    "total_faskes": 14
+  },
+  {
+    "kecamatan": "Tandes",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 9,
+    "total_faskes": 12
+  },
+  {
+    "kecamatan": "Suko Manunggal",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 11,
+    "total_faskes": 14
+  },
+  {
+    "kecamatan": "Sawahan",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 4,
+    "jumlah_klinik": 10,
+    "total_faskes": 15
+  },
+  {
+    "kecamatan": "Tegalsari",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 2,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 21,
+    "total_faskes": 26
+  },
+  {
+    "kecamatan": "Genteng",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 17,
+    "total_faskes": 21
+  },
+  {
+    "kecamatan": "Tambaksari",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 3,
+    "jumlah_klinik": 16,
+    "total_faskes": 20
+  },
+  {
+    "kecamatan": "Kenjeran",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 4,
+    "jumlah_klinik": 3,
+    "total_faskes": 7
+  },
+  {
+    "kecamatan": "Bulak",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 2,
+    "total_faskes": 3
+  },
+  {
+    "kecamatan": "Simokerto",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 3,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 1,
+    "total_faskes": 6
+  },
+  {
+    "kecamatan": "Semampir",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 4,
+    "jumlah_klinik": 7,
+    "total_faskes": 12
+  },
+  {
+    "kecamatan": "Pabean Cantian",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 4,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 4,
+    "total_faskes": 9
+  },
+  {
+    "kecamatan": "Bubutan",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 1,
+    "jumlah_puskesmas": 2,
+    "jumlah_klinik": 4,
+    "total_faskes": 7
+  },
+  {
+    "kecamatan": "Krembangan",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 3,
+    "jumlah_klinik": 12,
+    "total_faskes": 15
+  },
+  {
+    "kecamatan": "Asemrowo",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 0,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 1,
+    "total_faskes": 2
+  },
+  {
+    "kecamatan": "Benowo",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 2,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 2,
+    "total_faskes": 5
+  },
+  {
+    "kecamatan": "Pakal",
+    "tahun": 2023,
+    "jumlah_rumah_sakit_umum": 1,
+    "jumlah_rumah_sakit_khusus": 0,
+    "jumlah_puskesmas": 1,
+    "jumlah_klinik": 1,
+    "total_faskes": 3
+  }
+]

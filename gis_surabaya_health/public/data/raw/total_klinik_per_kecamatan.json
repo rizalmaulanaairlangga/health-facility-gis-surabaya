@@ -1,0 +1,130 @@
+[
+  {
+    "kecamatan": "",
+    "total_klinik": 40
+  },
+  {
+    "kecamatan": "Asemrowo",
+    "total_klinik": 1
+  },
+  {
+    "kecamatan": "Benowo",
+    "total_klinik": 2
+  },
+  {
+    "kecamatan": "Bubutan",
+    "total_klinik": 4
+  },
+  {
+    "kecamatan": "Bulak",
+    "total_klinik": 2
+  },
+  {
+    "kecamatan": "Dukuh Pakis",
+    "total_klinik": 25
+  },
+  {
+    "kecamatan": "Gayungan",
+    "total_klinik": 11
+  },
+  {
+    "kecamatan": "Genteng",
+    "total_klinik": 17
+  },
+  {
+    "kecamatan": "Gubeng",
+    "total_klinik": 34
+  },
+  {
+    "kecamatan": "Gunung Anyar",
+    "total_klinik": 9
+  },
+  {
+    "kecamatan": "Jambangan",
+    "total_klinik": 2
+  },
+  {
+    "kecamatan": "Karang Pilang",
+    "total_klinik": 5
+  },
+  {
+    "kecamatan": "Kenjeran",
+    "total_klinik": 3
+  },
+  {
+    "kecamatan": "Krembangan",
+    "total_klinik": 12
+  },
+  {
+    "kecamatan": "Lakarsantri",
+    "total_klinik": 7
+  },
+  {
+    "kecamatan": "Mulyorejo",
+    "total_klinik": 26
+  },
+  {
+    "kecamatan": "Pabean Cantian",
+    "total_klinik": 4
+  },
+  {
+    "kecamatan": "Pakal",
+    "total_klinik": 1
+  },
+  {
+    "kecamatan": "Rungkut",
+    "total_klinik": 21
+  },
+  {
+    "kecamatan": "Sambikerep",
+    "total_klinik": 10
+  },
+  {
+    "kecamatan": "Sawahan",
+    "total_klinik": 10
+  },
+  {
+    "kecamatan": "Semampir",
+    "total_klinik": 7
+  },
+  {
+    "kecamatan": "Simokerto",
+    "total_klinik": 1
+  },
+  {
+    "kecamatan": "Sukolilo",
+    "total_klinik": 16
+  },
+  {
+    "kecamatan": "Sukomanunggal",
+    "total_klinik": 11
+  },
+  {
+    "kecamatan": "Tambaksari",
+    "total_klinik": 16
+  },
+  {
+    "kecamatan": "Tandes",
+    "total_klinik": 9
+  },
+  {
+    "kecamatan": "Tegalsari",
+    "total_klinik": 21
+  },
+  {
+    "kecamatan": "Tenggilis Mejoyo",
+    "total_klinik": 7
+  },
+  {
+    "kecamatan": "Wiyung",
+    "total_klinik": 7
+  },
+  {
+    "kecamatan": "Wonocolo",
+    "total_klinik": 13
+  },
+  {
+    "kecamatan": "Wonokromo",
+    "total_klinik": 28
+  }
+]
