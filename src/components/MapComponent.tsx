@@ -137,33 +137,49 @@ const MapComponent: React.FC<MapComponentProps> = ({
 
     const locale = lang === 'en' ? 'en-US' : 'id-ID';
     layer.bindPopup(`
-      <div class="p-5 font-sans min-w-[180px]">
-        <div class="flex items-center justify-between mb-4">
-          <h4 class="text-lg font-black text-slate-900">${kecamatanName}</h4>
-          <span class="w-3 h-3 rounded-full" style="background-color: ${color}"></span>
+      <div class="font-sans w-[82vw] max-w-[300px] sm:w-[300px] overflow-hidden">
+        <!-- Header -->
+        <div class="px-4 pt-4 pb-3 flex items-start justify-between gap-3">
+          <div class="min-w-0">
+            <h4 class="text-[16px] sm:text-lg font-black text-slate-900 leading-tight truncate pr-2">${kecamatanName}</h4>
+            <div class="mt-1 inline-flex items-center gap-1.5 rounded-full border px-2 py-0.5 text-[10px] font-black uppercase tracking-widest" style="background:${color}14; border-color:${color}30; color:${color}">
+              <span class="w-1.5 h-1.5 rounded-full" style="background:${color}"></span>
+              ${statusLabel}
+            </div>
+          </div>
+          <span class="hidden sm:block w-3 h-3 rounded-full shrink-0 mt-1 shadow-sm ring-2 ring-white" style="background:${color}"></span>
         </div>
-        <div class="space-y-3">
-          <div class="flex justify-between items-center">
-            <span class="text-xs font-bold uppercase tracking-wider text-slate-400">${t('common.year')}</span>
-            <span class="text-sm font-black text-slate-700">${selectedYear}</span>
+        <!-- Stats grid - 2 cols on mobile -->
+        <div class="px-4 grid grid-cols-2 gap-2">
+          <div class="rounded-2xl bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/10 p-3">
+            <p class="text-[9px] font-black uppercase tracking-[0.14em] text-slate-400">${t('common.year')}</p>
+            <p class="text-[13px] font-black text-slate-900 dark:text-white mt-1">${selectedYear}</p>
           </div>
-          <div class="flex justify-between items-center">
-            <span class="text-sm font-bold uppercase tracking-wider text-slate-400">${t('dashboard.totalFacilities')}</span>
-            <span class="text-sm font-black text-slate-700">${analysis?.total_fasilitas ?? '0'}</span>
+          <div class="rounded-2xl bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/10 p-3">
+            <p class="text-[9px] font-black uppercase tracking-[0.14em] text-slate-400">${t('dashboard.totalFacilities')}</p>
+            <p class="text-[13px] font-black text-slate-900 dark:text-white mt-1">${analysis?.total_fasilitas ?? '0'}</p>
           </div>
-          <div class="flex justify-between items-center">
-            <span class="text-sm font-bold uppercase tracking-wider text-slate-400">${t('map.totalPopulation')}</span>
-            <span class="text-sm font-black text-slate-700">${analysis?.jumlah_penduduk ? analysis.jumlah_penduduk.toLocaleString(locale) : 'N/A'}</span>
-          </div>
-          <div class="pt-2 border-t border-slate-100 flex justify-between items-center">
-            <span class="text-sm font-bold uppercase tracking-wider text-sky-500">${t('map.ratioFaskes')}</span>
-            <span class="text-sm font-black text-sky-600">${ratio ? ratio.toFixed(4) : 'N/A'}</span>
+          <div class="col-span-2 rounded-2xl bg-sky-50 dark:bg-sky-500/10 border border-sky-100 dark:border-sky-400/20 p-3 flex items-center justify-between">
+            <div>
+              <p class="text-[9px] font-black uppercase tracking-[0.14em] text-sky-600/70 dark:text-sky-300/70">${t('map.totalPopulation')}</p>
+              <p class="text-[13px] font-black text-slate-900 dark:text-white mt-1">${analysis?.jumlah_penduduk ? analysis.jumlah_penduduk.toLocaleString(locale) : 'N/A'}</p>
+            </div>
+            <div class="w-8 h-8 rounded-xl bg-sky-500 flex items-center justify-center text-white shadow-sm">👥</div>
           </div>
         </div>
+        <!-- Ratio highlight -->
+        <div class="mx-4 mt-3 rounded-2xl bg-gradient-to-br from-sky-500 to-sky-400 dark:from-sky-600 dark:to-sky-500 p-3.5 flex items-center justify-between text-white shadow-md">
+          <div class="flex items-center gap-2">
+            <span class="w-7 h-7 rounded-xl bg-white/20 flex items-center justify-center text-[12px]">◈</span>
+            <span class="text-[10px] font-black uppercase tracking-[0.16em] text-white/90">${t('map.ratioFaskes')}</span>
+          </div>
+          <span class="text-[15px] font-black tracking-tight">${ratio ? ratio.toFixed(4) : 'N/A'}</span>
+        </div>
+        <p class="px-4 py-2.5 text-[10px] text-center font-bold text-slate-400">${t('map.viewDetail')} →</p>
       </div>
     `, {
       className: 'custom-leaflet-popup',
-      maxWidth: 300
+      maxWidth: 320
     });
 
     layer.on({

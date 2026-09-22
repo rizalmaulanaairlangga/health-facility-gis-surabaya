@@ -106,6 +106,24 @@ button, a, select, [role="button"] {
   box-shadow: none;
 }
 
+/* Mobile popup & map polish */
+@media (max-width: 640px) {
+  .custom-leaflet-popup .leaflet-popup-content-wrapper {
+    border-radius: 20px !important;
+    max-width: 92vw !important;
+  }
+  .custom-leaflet-popup .leaflet-popup {
+    margin-bottom: 18px !important;
+  }
+  .leaflet-tooltip.custom-tooltip {
+    font-size: 12px !important;
+    max-width: 72vw !important;
+  }
+  html, body, #root {
+    overflow: auto;
+  }
+}
+
 .leaflet-tooltip.custom-tooltip {
   background: rgba(255, 255, 255, 0.5) !important;
   border: 2px solid #0ea5e9 !important;
