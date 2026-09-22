@@ -19,7 +19,7 @@ const ChartValueLabel: React.FC<{ x: number; y: number; value: number; isSelecte
       x={x} 
       y={y - 14} 
       textAnchor="middle" 
-      className={`text-[11px] font-black ${isSelected ? 'fill-sky-700' : 'fill-slate-600'}`}
+      className={`text-[11px] font-black ${isSelected ? 'fill-sky-700 dark:fill-sky-300' : 'fill-slate-600 dark:fill-sky-300'}`}
     >
       {animatedValue.toFixed(3)}
     </text>
@@ -122,7 +122,7 @@ const DistrictRatioChart: React.FC<DistrictRatioChartProps> = ({ data, selectedY
         )})}
 
         {points.map((point) => (
-          <text key={`label-${point.tahun}`} x={point.x} y={height - 8} textAnchor="middle" className={`text-[11px] font-bold ${selectedYear === point.tahun ? 'fill-sky-600' : 'fill-slate-400'}`}>
+          <text key={`label-${point.tahun}`} x={point.x} y={height - 8} textAnchor="middle" className={`text-[11px] font-bold ${selectedYear === point.tahun ? 'fill-sky-600 dark:fill-sky-300' : 'fill-slate-400 dark:fill-sky-300/70'}`}>
             {point.tahun}
           </text>
         ))}
