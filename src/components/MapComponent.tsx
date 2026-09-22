@@ -1,5 +1,6 @@
-import React from 'react';
-import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
+import React, { useEffect } from 'react';
+import { MapContainer, TileLayer, GeoJSON, useMap } from 'react-leaflet';
+import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import type { AnalysisData, GeoJsonData } from '../types';
 import { useLanguage } from '../context/LanguageContext';
@@ -70,6 +71,26 @@ const getStatusKey = (ratio: number) => {
   if (ratio < 0.25) return 'status.good';
   if (ratio < 0.30) return 'status.veryGood';
   return 'status.excellent';
+};
+
+const FlyToDistrict: React.FC<{ selectedDistrict: string | null; geoData: GeoJsonData }> = ({ selectedDistrict, geoData }) => {
+  const map = useMap();
+  useEffect(() => {
+    if (!selectedDistrict || !(geoData as any)?.features) return;
+    const feature: any = (geoData as any).features.find((f: any) => f.properties.kecamatan === selectedDistrict);
+    if (!feature) return;
+    try {
+      const layer = L.geoJSON(feature as any);
+      const bounds = (layer as any).getBounds();
+      if (bounds && bounds.isValid && bounds.isValid()) {
+        const isDesktop = typeof window !== 'undefined' && window.innerWidth >= 1024;
+        // Padding to keep district centered in visible map area, not under side panels on desktop
+        const padding: [number, number] = isDesktop ? [40, 40] : [24, 24];
+        map.flyToBounds(bounds, { padding, maxZoom: 13, duration: 0.9, easeLinearity: 0.2 });
+      }
+    } catch {}
+  }, [selectedDistrict, geoData, map]);
+  return null;
 };
 
 const MapComponent: React.FC<MapComponentProps> = ({
@@ -179,7 +200,10 @@ const MapComponent: React.FC<MapComponentProps> = ({
       </div>
     `, {
       className: 'custom-leaflet-popup',
-      maxWidth: 320
+      maxWidth: 320,
+      autoPan: false,
+      keepInView: false,
+      closeButton: true
     });
 
     layer.on({
@@ -221,6 +245,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
           url={tileUrl}
           opacity={1}
         />
+        <FlyToDistrict selectedDistrict={selectedDistrict} geoData={geoData} />
         <GeoJSON
           key={`${selectedYear}-${analysisData.length}-${selectedDistrict ?? 'none'}-${highlightedRange ?? 'none'}-${resolvedTheme}-${mode}`}
           data={geoData}

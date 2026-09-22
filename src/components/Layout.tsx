@@ -80,22 +80,22 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
   return (
     <div className="relative h-screen w-full bg-[#f8fafc] dark:bg-[#0B1120] text-slate-900 dark:text-slate-100 overflow-hidden font-['Poppins'] transition-colors duration-300">
-      <header className="absolute top-0 left-0 right-0 h-16 bg-white/40 dark:bg-slate-900/40 border-b border-sky-200/30 dark:border-white/10 flex items-center justify-between px-4 lg:px-6 z-[1000] backdrop-blur-xl shadow-glass transition-all hover:bg-white/60 dark:hover:bg-slate-900/60">
-        <div className="flex items-center gap-2 lg:gap-3 shrink-0">
+      <header className="absolute top-0 left-0 right-0 h-16 bg-white/40 dark:bg-slate-900/40 border-b border-sky-200/30 dark:border-white/10 flex items-center justify-between px-3 sm:px-4 lg:px-6 z-[1000] backdrop-blur-xl shadow-glass transition-all hover:bg-white/60 dark:hover:bg-slate-900/60 gap-2">
+        <div className="flex items-center gap-2 lg:gap-3 flex-1 min-w-0">
           <button 
             ref={hamburgerRef}
             onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-            className="relative p-2 bg-white/50 dark:bg-white/10 hover:bg-white/80 dark:hover:bg-white/20 rounded-xl border border-sky-200/50 dark:border-white/10 shadow-sm transition-all w-9 h-9 flex items-center justify-center"
+            className="relative p-2 bg-white/50 dark:bg-white/10 hover:bg-white/80 dark:hover:bg-white/20 rounded-xl border border-sky-200/50 dark:border-white/10 shadow-sm transition-all w-9 h-9 flex items-center justify-center shrink-0"
             aria-label="Toggle sidebar"
           >
             <Menu size={20} className={`absolute text-slate-600 dark:text-slate-300 transition-all duration-300 transform ${isSidebarOpen ? 'opacity-0 rotate-90 scale-50' : 'opacity-100 rotate-0 scale-100'}`} />
             <X size={20} className={`absolute text-slate-600 dark:text-slate-300 transition-all duration-300 transform ${isSidebarOpen ? 'opacity-100 rotate-0 scale-100' : 'opacity-0 -rotate-90 scale-50'}`} />
           </button>
-          <div className="p-2 bg-sky-500 rounded-xl shadow-sky-200 shadow-lg ml-1 lg:ml-2 hidden sm:flex">
+          <div className="p-2 bg-sky-500 rounded-xl shadow-sky-200 shadow-lg ml-1 lg:ml-2 hidden sm:flex shrink-0">
             <MapIcon className="text-white" size={20} />
           </div>
-          {/* Judul website TIDAK diterjemahkan sesuai request */}
-          <h1 className="text-sm lg:text-lg font-bold bg-gradient-to-r from-slate-900 to-sky-700 dark:from-white dark:to-sky-300 bg-clip-text text-transparent whitespace-nowrap">GIS Surabaya Health</h1>
+          {/* Judul website TIDAK diterjemahkan — 2 baris di layar kecil */}
+          <h1 className="text-[12px] xs:text-sm lg:text-lg font-bold bg-gradient-to-r from-slate-900 to-sky-700 dark:from-white dark:to-sky-300 bg-clip-text text-transparent leading-tight whitespace-normal break-words line-clamp-2 max-w-[110px] xs:max-w-[150px] sm:max-w-none">GIS Surabaya Health</h1>
         </div>
 
         <div className="flex items-center gap-2 lg:gap-3">

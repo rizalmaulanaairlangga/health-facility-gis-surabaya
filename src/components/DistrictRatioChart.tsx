@@ -81,15 +81,16 @@ const DistrictRatioChart: React.FC<DistrictRatioChartProps> = ({ data, selectedY
         <path 
           d={linePath} 
           fill="none" 
-          stroke="url(#ratioGlow)" 
-          strokeWidth="4" 
+          stroke="#0ea5e9"
+          strokeWidth="3.5" 
           strokeLinecap="round" 
           strokeLinejoin="round" 
-          filter="url(#glow)" 
+          className="dark:stroke-sky-400"
           style={{
+            opacity: animReady ? 1 : 0,
             strokeDasharray: 1000,
             strokeDashoffset: animReady ? 0 : 1000,
-            transition: animReady ? 'stroke-dashoffset 1.5s cubic-bezier(0.4, 0, 0.2, 1) 0.1s' : 'none'
+            transition: animReady ? 'stroke-dashoffset 1.2s ease-out 0.1s, opacity 0.2s' : 'none'
           }}
         />
 
