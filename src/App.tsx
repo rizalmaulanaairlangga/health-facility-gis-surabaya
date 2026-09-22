@@ -4,19 +4,28 @@ import MapPage from './pages/MapPage';
 import DashboardPage from './pages/DashboardPage';
 import StatisticsPage from './pages/StatisticsPage';
 import { HeaderProvider } from './context/HeaderContext';
+import { LanguageProvider } from './context/LanguageContext';
+import { ThemeProvider } from './context/ThemeContext';
+import { AccessibilityProvider } from './context/AccessibilityContext';
 
 function App() {
   return (
     <Router>
-      <HeaderProvider>
-        <Layout>
-          <Routes>
-            <Route path="/" element={<MapPage />} />
-            <Route path="/dashboard" element={<DashboardPage />} />
-            <Route path="/statistics/:kecamatan?" element={<StatisticsPage />} />
-          </Routes>
-        </Layout>
-      </HeaderProvider>
+      <ThemeProvider>
+        <LanguageProvider>
+          <AccessibilityProvider>
+            <HeaderProvider>
+              <Layout>
+                <Routes>
+                  <Route path="/" element={<MapPage />} />
+                  <Route path="/dashboard" element={<DashboardPage />} />
+                  <Route path="/statistics/:kecamatan?" element={<StatisticsPage />} />
+                </Routes>
+              </Layout>
+            </HeaderProvider>
+          </AccessibilityProvider>
+        </LanguageProvider>
+      </ThemeProvider>
     </Router>
   );
 }

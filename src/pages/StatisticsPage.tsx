@@ -1,21 +1,20 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useHeader } from '../context/HeaderContext';
+import { useLanguage } from '../context/LanguageContext';
 import { fetchFaskes, fetchAnalysis } from '../api/gisApi';
 import type { FacilityData, AnalysisData } from '../types';
 import { Activity, Building2, TrendingUp, ArrowUpRight, ArrowDownRight } from 'lucide-react';
 import Counter from '../components/Counter';
 
-const formatNumber = (value: number) => new Intl.NumberFormat('id-ID').format(value);
-
-const getStatusInfo = (value: number) => {
-  if (value < 0.05) return { label: 'Kritis', color: '#f87171', shadow: 'shadow-red-200' };
-  if (value < 0.10) return { label: 'Sangat Rendah', color: '#fb923c', shadow: 'shadow-orange-200' };
-  if (value < 0.15) return { label: 'Rendah', color: '#facc15', shadow: 'shadow-yellow-200' };
-  if (value < 0.20) return { label: 'Sedang', color: '#22c55e', shadow: 'shadow-green-200' };
-  if (value < 0.25) return { label: 'Baik', color: '#38bdf8', shadow: 'shadow-sky-200' };
-  if (value < 0.30) return { label: 'Sangat Baik', color: '#818cf8', shadow: 'shadow-indigo-200' };
-  return { label: 'Istimewa', color: '#7c3aed', shadow: 'shadow-purple-200' };
+const getStatusInfo = (value: number, t: (k:string)=>string) => {
+  if (value < 0.05) return { label: t('status.critical'), color: '#f87171', shadow: 'shadow-red-200' };
+  if (value < 0.10) return { label: t('status.veryLow'), color: '#fb923c', shadow: 'shadow-orange-200' };
+  if (value < 0.15) return { label: t('status.low'), color: '#facc15', shadow: 'shadow-yellow-200' };
+  if (value < 0.20) return { label: t('status.medium'), color: '#22c55e', shadow: 'shadow-green-200' };
+  if (value < 0.25) return { label: t('status.good'), color: '#38bdf8', shadow: 'shadow-sky-200' };
+  if (value < 0.30) return { label: t('status.veryGood'), color: '#818cf8', shadow: 'shadow-indigo-200' };
+  return { label: t('status.excellent'), color: '#7c3aed', shadow: 'shadow-purple-200' };
 };
 
 // Consistent Colors for Healthcare Facility Types across all charts
@@ -34,6 +33,8 @@ const StatisticsPage: React.FC = () => {
   const decodedKecamatan = kecamatan ? decodeURIComponent(kecamatan) : undefined;
   const navigate = useNavigate();
   const { selectedYear } = useHeader();
+  const { t, lang } = useLanguage();
+  const formatNumber = (value: number) => new Intl.NumberFormat(lang === 'en' ? 'en-US' : 'id-ID').format(value);
   
   const [faskesData, setFaskesData] = useState<FacilityData[]>([]);
   const [analysisData, setAnalysisData] = useState<AnalysisData[]>([]);
@@ -355,10 +356,10 @@ const StatisticsPage: React.FC = () => {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center h-full w-full bg-slate-50 text-slate-800">
+      <div className="flex items-center justify-center h-full w-full bg-slate-50 dark:bg-[#020617] text-slate-800 dark:text-slate-200">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-sky-500 mx-auto mb-4" />
-          <p className="text-sm text-slate-500 font-bold">Memuat analisis statistik...</p>
+          <p className="text-sm text-slate-500 dark:text-slate-400 font-bold">{t('common.loadingStatistics')}</p>
         </div>
       </div>
     );
@@ -366,17 +367,17 @@ const StatisticsPage: React.FC = () => {
 
   return (
     // Raised Page Title: pt-18 for less gap under top navbar
-    <div className="pt-18 p-8 h-full overflow-y-auto bg-gradient-to-br from-[#EEF4FF] via-[#F1F6FF] to-[#ffffff] text-slate-800 font-['Poppins']">
+    <div className="pt-18 p-4 lg:p-8 h-full overflow-y-auto bg-gradient-to-br from-[#EEF4FF] via-[#F1F6FF] to-[#ffffff] dark:from-[#0B1120] dark:via-[#131C2E] dark:to-[#0F172A] text-slate-800 dark:text-slate-100 font-['Poppins']">
       <div className="max-w-6xl mx-auto space-y-4">
         
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
-            <h2 className="text-2xl font-black bg-gradient-to-r from-slate-900 to-sky-700 bg-clip-text text-transparent">
-              Statistik Fasilitas Kesehatan
+            <h2 className="text-2xl font-black bg-gradient-to-r from-slate-900 to-sky-700 dark:from-white dark:to-sky-300 bg-clip-text text-transparent">
+              {t('stats.title')}
             </h2>
-            <p className="text-sm text-slate-600 font-bold mt-1">
-              Analisis komprehensif wilayah: <span className="text-sky-600">{decodedKecamatan || 'Seluruh Surabaya'}</span> ({activeYear === 'all' ? 'Semua Tahun' : activeYear})
+            <p className="text-sm text-slate-600 dark:text-slate-400 font-bold mt-1">
+              {t('stats.subtitle')} <span className="text-sky-600 dark:text-sky-300">{decodedKecamatan || t('common.citySurabaya')}</span> ({activeYear === 'all' ? t('common.allYears') : activeYear})
             </p>
           </div>
         </div>
@@ -389,10 +390,10 @@ const StatisticsPage: React.FC = () => {
               {/* Card 1: Rasio Tertinggi (Clickable) */}
               <div 
                 onClick={() => ratioStats.highest && navigate(`/statistics/${encodeURIComponent(ratioStats.highest.kecamatan)}`)}
-                className="bg-white/70 backdrop-blur-xl border border-sky-300/70 rounded-[28px] p-5 shadow-glass flex items-center justify-between transition-all hover:scale-[1.02] hover:shadow-md cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/10 group"
+                className="bg-white/70 dark:bg-white/5 backdrop-blur-xl border border-sky-300/70 dark:border-white/10 rounded-[28px] p-5 shadow-glass flex items-center justify-between transition-all hover:scale-[1.02] hover:shadow-md cursor-pointer hover:border-emerald-400 hover:bg-emerald-50/10 group"
               >
                 <div>
-                  <p className="text-xs uppercase tracking-[0.2em] text-slate-500 font-black">Rasio Tertinggi</p>
+                  <p className="text-xs uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400 font-black">{t('stats.highestRatio')}</p>
                   <h4 className="text-3xl font-black text-slate-900 mt-1">
                     <Counter value={ratioStats.highest ? ratioStats.highest.rasio_scaled : 0} duration={1500} formatter={(val) => val.toFixed(2)} />
                   </h4>
@@ -406,14 +407,14 @@ const StatisticsPage: React.FC = () => {
               </div>
 
               {/* Card 2: Rasio Sedang (Rata-rata Surabaya) */}
-              <div className="bg-white/70 backdrop-blur-xl border border-sky-300/70 rounded-[28px] p-5 shadow-glass flex items-center justify-between transition-all hover:scale-[1.02] hover:shadow-md">
+              <div className="bg-white/70 dark:bg-white/5 backdrop-blur-xl border border-sky-300/70 dark:border-white/10 rounded-[28px] p-5 shadow-glass flex items-center justify-between transition-all hover:scale-[1.02] hover:shadow-md">
                 <div>
-                  <p className="text-xs uppercase tracking-[0.2em] text-slate-500 font-black">Rasio Sedang (Rata-rata)</p>
+                  <p className="text-xs uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400 font-black">{t('stats.averageRatio')}</p>
                   <h4 className="text-3xl font-black text-slate-900 mt-1">
                     <Counter value={ratioStats.average} duration={1500} formatter={(val) => val.toFixed(2)} />
                   </h4>
-                  <p className="text-[10px] font-bold text-sky-600 mt-1">
-                    Rata-rata Kota Surabaya
+                  <p className="text-[10px] font-bold text-sky-600 dark:text-sky-300 mt-1">
+                    {t('stats.cityAverage')}
                   </p>
                 </div>
                 <div className="p-3 bg-sky-100 border border-sky-200 rounded-2xl">
@@ -424,10 +425,10 @@ const StatisticsPage: React.FC = () => {
               {/* Card 3: Rasio Terendah (Clickable) */}
               <div 
                 onClick={() => ratioStats.lowest && navigate(`/statistics/${encodeURIComponent(ratioStats.lowest.kecamatan)}`)}
-                className="bg-white/70 backdrop-blur-xl border border-sky-300/70 rounded-[28px] p-5 shadow-glass flex items-center justify-between transition-all hover:scale-[1.02] hover:shadow-md cursor-pointer hover:border-rose-400 hover:bg-rose-50/10 group"
+                className="bg-white/70 dark:bg-white/5 backdrop-blur-xl border border-sky-300/70 dark:border-white/10 rounded-[28px] p-5 shadow-glass flex items-center justify-between transition-all hover:scale-[1.02] hover:shadow-md cursor-pointer hover:border-rose-400 hover:bg-rose-50/10 group"
               >
                 <div>
-                  <p className="text-xs uppercase tracking-[0.2em] text-slate-500 font-black">Rasio Terendah</p>
+                  <p className="text-xs uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400 font-black">{t('stats.lowestRatio')}</p>
                   <h4 className="text-3xl font-black text-slate-900 mt-1">
                     <Counter value={ratioStats.lowest ? ratioStats.lowest.rasio_scaled : 0} duration={1500} formatter={(val) => val.toFixed(2)} />
                   </h4>
@@ -444,25 +445,25 @@ const StatisticsPage: React.FC = () => {
             // Specific Kecamatan Mode: Jumlah Faskes, Hasil Rasio Faskes - Penduduk, Jumlah Penduduk
             <>
               {/* Card 1: Jumlah Faskes */}
-              <div className="bg-white/70 backdrop-blur-xl border border-sky-300/70 rounded-[28px] p-5 shadow-glass flex items-center justify-between transition-all hover:scale-[1.02] hover:shadow-md">
+              <div className="bg-white/70 dark:bg-white/5 backdrop-blur-xl border border-sky-300/70 dark:border-white/10 rounded-[28px] p-5 shadow-glass flex items-center justify-between transition-all hover:scale-[1.02] hover:shadow-md">
                 <div>
-                  <p className="text-xs uppercase tracking-[0.2em] text-slate-500 font-black">Jumlah Faskes</p>
-                  <h4 className="text-3xl font-black text-slate-900 mt-1">
+                  <p className="text-xs uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400 font-black">{t('stats.totalFaskes')}</p>
+                  <h4 className="text-3xl font-black text-slate-900 dark:text-white mt-1">
                     <Counter value={activeYearData?.total_faskes || 0} duration={1500} formatter={(val) => formatNumber(Math.floor(val))} />
                   </h4>
-                  <p className="text-[10px] font-bold text-sky-600 mt-1">
-                    Total Fasilitas Kesehatan
+                  <p className="text-[10px] font-bold text-sky-600 dark:text-sky-300 mt-1">
+                    {t('stats.totalFaskesDesc')}
                   </p>
                 </div>
-                <div className="p-3 bg-sky-100 border border-sky-200 rounded-2xl">
-                  <Building2 className="text-sky-600" size={20} />
+                <div className="p-3 bg-sky-100 dark:bg-white/10 border border-sky-200 dark:border-white/10 rounded-2xl">
+                  <Building2 className="text-sky-600 dark:text-sky-300" size={20} />
                 </div>
               </div>
 
               {/* Card 2: Hasil Rasio Jumlah Penduduk dengan Jumlah Faskes */}
               {(() => {
                 const ratioVal = activeKecamatanAnalysis?.rasio_scaled || 0;
-                const statusInfo = getStatusInfo(ratioVal);
+                const statusInfo = getStatusInfo(ratioVal, t);
                 return (
                   <div className="relative group">
                     {/* Circle Glow Aura behind the card */}
@@ -477,8 +478,8 @@ const StatisticsPage: React.FC = () => {
                       style={{ borderColor: `${statusInfo.color}50` }}
                     >
                       <div>
-                        <p className="text-xs uppercase tracking-[0.2em] text-slate-500 font-black">Rasio Faskes - Penduduk</p>
-                        <h4 className="text-3xl font-black text-slate-900 mt-1">
+                        <p className="text-xs uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400 font-black">{t('stats.ratioFaskesPopulation')}</p>
+                        <h4 className="text-3xl font-black text-slate-900 dark:text-white mt-1">
                           <Counter value={ratioVal} duration={1500} formatter={(val) => val.toFixed(3)} />
                         </h4>
                         <p className="text-[10px] font-black mt-1" style={{ color: statusInfo.color }}>
@@ -497,18 +498,18 @@ const StatisticsPage: React.FC = () => {
               })()}
 
               {/* Card 3: Jumlah Penduduk */}
-              <div className="bg-white/70 backdrop-blur-xl border border-sky-300/70 rounded-[28px] p-5 shadow-glass flex items-center justify-between transition-all hover:scale-[1.02] hover:shadow-md">
+              <div className="bg-white/70 dark:bg-white/5 backdrop-blur-xl border border-sky-300/70 dark:border-white/10 rounded-[28px] p-5 shadow-glass flex items-center justify-between transition-all hover:scale-[1.02] hover:shadow-md">
                 <div>
-                  <p className="text-xs uppercase tracking-[0.2em] text-slate-500 font-black">Jumlah Penduduk</p>
-                  <h4 className="text-3xl font-black text-slate-900 mt-1">
+                  <p className="text-xs uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400 font-black">{t('stats.totalPopulation')}</p>
+                  <h4 className="text-3xl font-black text-slate-900 dark:text-white mt-1">
                     <Counter value={activeKecamatanAnalysis?.jumlah_penduduk || 0} duration={1500} formatter={(val) => formatNumber(Math.floor(val))} />
                   </h4>
-                  <p className="text-[10px] font-bold text-sky-600 mt-1">
-                    Jiwa Penduduk Wilayah
+                  <p className="text-[10px] font-bold text-sky-600 dark:text-sky-300 mt-1">
+                    {t('stats.populationDesc')}
                   </p>
                 </div>
-                <div className="p-3 bg-indigo-50 border border-indigo-100 rounded-2xl">
-                  <TrendingUp className="text-indigo-600" size={20} />
+                <div className="p-3 bg-indigo-50 dark:bg-white/10 border border-indigo-100 dark:border-white/10 rounded-2xl">
+                  <TrendingUp className="text-indigo-600 dark:text-indigo-300" size={20} />
                 </div>
               </div>
             </>
@@ -525,7 +526,7 @@ const StatisticsPage: React.FC = () => {
             
             <div className="relative z-10">
               <div className="flex items-center justify-between mb-2">
-                <p className="text-lg font-black text-white">Persentase Faskes</p>
+                <p className="text-lg font-black text-white">{t('stats.percentageFaskes')}</p>
                 <Building2 className="text-blue-100 opacity-90" size={20} />
               </div>
             </div>
@@ -583,7 +584,7 @@ const StatisticsPage: React.FC = () => {
                   <Counter value={activeYearData?.total_faskes || 0} duration={1500} formatter={(val) => formatNumber(Math.floor(val))} />
                 </span>
                 <span className="text-[10px] font-black uppercase tracking-wider text-blue-100 text-center mt-1">
-                  Total Faskes
+                  {t('stats.totalFaskesCenter')}
                 </span>
               </div>
 
@@ -605,7 +606,7 @@ const StatisticsPage: React.FC = () => {
                     {activeSegmentDetails.name}
                   </span>
                   <span className="text-sm font-black mt-1" style={{ color: activeSegmentDetails.color }}>
-                    {formatNumber(activeSegmentDetails.value)} Fasilitas
+                    {formatNumber(activeSegmentDetails.value)} {t('stats.facilities')}
                   </span>
                 </div>
               )}
@@ -649,10 +650,10 @@ const StatisticsPage: React.FC = () => {
           <div className="md:col-span-2 flex flex-col gap-4">
             
             {/* 2. Jumlah Fasilitas Kesehatan (Bar Chart - Synchronized Bars, Hover Scales & Click Activations) */}
-            <div className="bg-white/70 backdrop-blur-xl border border-sky-300/70 rounded-[32px] p-6 shadow-glass flex flex-col justify-between min-h-[220px] transition-all hover:shadow-md">
+            <div className="bg-white/70 dark:bg-white/5 backdrop-blur-xl border border-sky-300/70 dark:border-white/10 rounded-[32px] p-6 shadow-glass flex flex-col justify-between min-h-[220px] transition-all hover:shadow-md">
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <p className="text-lg font-black bg-gradient-to-r from-slate-900 to-sky-700 bg-clip-text text-transparent">Jumlah Fasilitas Kesehatan</p>
+                  <p className="text-lg font-black bg-gradient-to-r from-slate-900 to-sky-700 dark:from-white dark:to-sky-300 bg-clip-text text-transparent">{t('stats.amountHealthFacilities')}</p>
                   <Activity className="text-sky-500" size={18} />
                 </div>
               </div>
@@ -754,10 +755,10 @@ const StatisticsPage: React.FC = () => {
             </div>
 
             {/* 3. Pertumbuhan Faskes (Line Chart - Connected Curve thickness fading & Absolute Top tooltips) */}
-            <div className="bg-white/70 backdrop-blur-xl border border-sky-300/70 rounded-[32px] p-6 shadow-glass flex flex-col justify-between min-h-[220px] transition-all hover:shadow-md">
+            <div className="bg-white/70 dark:bg-white/5 backdrop-blur-xl border border-sky-300/70 dark:border-white/10 rounded-[32px] p-6 shadow-glass flex flex-col justify-between min-h-[220px] transition-all hover:shadow-md">
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <p className="text-lg font-black bg-gradient-to-r from-slate-900 to-sky-700 bg-clip-text text-transparent">Pertumbuhan Faskes</p>
+                  <p className="text-lg font-black bg-gradient-to-r from-slate-900 to-sky-700 dark:from-white dark:to-sky-300 bg-clip-text text-transparent">{t('stats.growthFaskes')}</p>
                   <TrendingUp className="text-sky-500" size={18} />
                 </div>
               </div>
@@ -930,7 +931,7 @@ const StatisticsPage: React.FC = () => {
 
                 {/* Legend on Right Side - Fully interactive hover/click synchronizations */}
                 <div className="flex flex-col gap-2 min-w-[130px] bg-slate-50 border border-sky-100 rounded-2xl p-3 shadow-inner self-stretch justify-center">
-                  <p className="text-[9px] uppercase tracking-wider text-slate-400 font-black mb-1.5 text-center">Tipe Faskes</p>
+                  <p className="text-[9px] uppercase tracking-wider text-slate-400 dark:text-slate-500 font-black mb-1.5 text-center">{t('stats.faskesType')}</p>
                   {trendLines.map(line => {
                     const active = isTypeActive(line.typeKey);
                     return (

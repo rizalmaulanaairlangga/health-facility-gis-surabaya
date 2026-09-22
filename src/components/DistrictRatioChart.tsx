@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useCounter } from './Counter';
+import { useLanguage } from '../context/LanguageContext';
 
 type ChartPoint = {
   tahun: number;
@@ -26,6 +27,7 @@ const ChartValueLabel: React.FC<{ x: number; y: number; value: number; isSelecte
 };
 
 const DistrictRatioChart: React.FC<DistrictRatioChartProps> = ({ data, selectedYear }) => {
+  const { t } = useLanguage();
   const [animReady, setAnimReady] = useState(false);
 
   useEffect(() => {
@@ -35,7 +37,7 @@ const DistrictRatioChart: React.FC<DistrictRatioChartProps> = ({ data, selectedY
   }, [data, selectedYear]);
 
   if (!data.length) {
-    return <p className="text-sm text-slate-400">Data rasio tidak tersedia untuk kecamatan ini.</p>;
+    return <p className="text-sm text-slate-400 dark:text-slate-500">{t('stats.noRatioData')}</p>;
   }
 
   const width = 320;
@@ -59,7 +61,7 @@ const DistrictRatioChart: React.FC<DistrictRatioChartProps> = ({ data, selectedY
   }).join(' ');
 
   return (
-    <div className="rounded-[24px] bg-sky-100/20 p-2">
+    <div className="rounded-[24px] bg-sky-100/20 dark:bg-white/5 p-2 border border-transparent dark:border-white/5">
       <svg viewBox={`0 0 ${width} ${height}`} className="w-full h-full overflow-visible">
         <defs>
           <linearGradient id="ratioGlow" x1="0" y1="0" x2="1" y2="0">
@@ -125,8 +127,8 @@ const DistrictRatioChart: React.FC<DistrictRatioChartProps> = ({ data, selectedY
           </text>
         ))}
 
-        <text x="0" y="14" className="text-[10px] font-black uppercase tracking-wider fill-sky-600">
-          Rasio / 1.000 Penduduk
+        <text x="0" y="14" className="text-[10px] font-black uppercase tracking-wider fill-sky-600 dark:fill-sky-300">
+          {t('stats.ratioPer1000')}
         </text>
       </svg>
     </div>
