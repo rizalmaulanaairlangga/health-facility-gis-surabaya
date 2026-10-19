@@ -6,6 +6,7 @@ import { fetchFaskes, fetchAnalysis } from '../api/gisApi';
 import type { FacilityData, AnalysisData } from '../types';
 import { Activity, Building2, TrendingUp, ArrowUpRight, ArrowDownRight } from 'lucide-react';
 import Counter from '../components/Counter';
+import { statusTextVars, statusChipColors } from '../utils/statusColor';
 
 const getStatusInfo = (value: number, t: (k:string)=>string) => {
   if (value < 0.05) return { label: t('status.critical'), color: '#f87171', shadow: 'shadow-red-200' };
@@ -20,7 +21,7 @@ const getStatusInfo = (value: number, t: (k:string)=>string) => {
 // Consistent Colors for Healthcare Facility Types across all charts
 const FASKES_COLORS = {
   rsu: '#38bdf8',      // Bright Luminous Sky Blue (Rumah Sakit Umum - high contrast)
-  rsk: '#a855f7',      // Purple (Rumah Sakit Khusus)
+  rsk: '#c084fc',      // Purple (Rumah Sakit Khusus)
   puskesmas: '#22c55e',// Green (Puskesmas)
   klinik: '#eab308'    // Yellow (Klinik)
 };
@@ -366,8 +367,7 @@ const StatisticsPage: React.FC = () => {
   }
 
   return (
-    // Raised Page Title: pt-18 for less gap under top navbar
-    <div className="pt-18 p-4 lg:p-8 h-full overflow-y-auto bg-gradient-to-br from-[#EEF4FF] via-[#F1F6FF] to-[#ffffff] dark:from-[#0B1120] dark:via-[#131C2E] dark:to-[#0F172A] text-slate-800 dark:text-slate-100 font-['Poppins']">
+    <div className="px-4 lg:px-8 pt-20 lg:pt-24 h-full overflow-y-auto bg-gradient-to-br from-[#EEF4FF] via-[#F1F6FF] to-[#ffffff] dark:from-[#0B1120] dark:via-[#131C2E] dark:to-[#0F172A] text-slate-800 dark:text-slate-100 font-['Poppins']">
       <div className="max-w-6xl mx-auto space-y-4">
         
         {/* Header */}
@@ -377,7 +377,7 @@ const StatisticsPage: React.FC = () => {
               {t('stats.title')}
             </h2>
             <p className="text-sm text-slate-600 dark:text-slate-400 font-bold mt-1">
-              {t('stats.subtitle')} <span className="text-sky-600 dark:text-sky-300">{decodedKecamatan || t('common.citySurabaya')}</span> ({activeYear === 'all' ? t('common.allYears') : activeYear})
+              {t('stats.subtitle')} <span className="text-sky-700 dark:text-sky-300">{decodedKecamatan || t('common.citySurabaya')}</span> ({activeYear === 'all' ? t('common.allYears') : activeYear})
             </p>
           </div>
         </div>
@@ -394,10 +394,10 @@ const StatisticsPage: React.FC = () => {
               >
                 <div>
                   <p className="text-xs uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400 font-black">{t('stats.highestRatio')}</p>
-                  <h4 className="text-3xl font-black text-slate-900 mt-1">
+                  <h4 className="text-3xl font-black text-slate-900 dark:text-white mt-1">
                     <Counter value={ratioStats.highest ? ratioStats.highest.rasio_scaled : 0} duration={1500} formatter={(val) => val.toFixed(2)} />
                   </h4>
-                  <p className="text-[10px] font-bold text-emerald-600 mt-1">
+                  <p className="text-[10px] font-bold text-emerald-700 dark:text-emerald-400 mt-1">
                     Kec. {ratioStats.highest ? ratioStats.highest.kecamatan : '-'}
                   </p>
                 </div>
@@ -410,10 +410,10 @@ const StatisticsPage: React.FC = () => {
               <div className="bg-white/70 dark:bg-white/5 backdrop-blur-xl border border-sky-300/70 dark:border-white/10 rounded-[28px] p-5 shadow-glass flex items-center justify-between transition-all hover:scale-[1.02] hover:shadow-md">
                 <div>
                   <p className="text-xs uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400 font-black">{t('stats.averageRatio')}</p>
-                  <h4 className="text-3xl font-black text-slate-900 mt-1">
+                  <h4 className="text-3xl font-black text-slate-900 dark:text-white mt-1">
                     <Counter value={ratioStats.average} duration={1500} formatter={(val) => val.toFixed(2)} />
                   </h4>
-                  <p className="text-[10px] font-bold text-sky-600 dark:text-sky-300 mt-1">
+                  <p className="text-[10px] font-bold text-sky-700 dark:text-sky-300 mt-1">
                     {t('stats.cityAverage')}
                   </p>
                 </div>
@@ -429,10 +429,10 @@ const StatisticsPage: React.FC = () => {
               >
                 <div>
                   <p className="text-xs uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400 font-black">{t('stats.lowestRatio')}</p>
-                  <h4 className="text-3xl font-black text-slate-900 mt-1">
+                  <h4 className="text-3xl font-black text-slate-900 dark:text-white mt-1">
                     <Counter value={ratioStats.lowest ? ratioStats.lowest.rasio_scaled : 0} duration={1500} formatter={(val) => val.toFixed(2)} />
                   </h4>
-                  <p className="text-[10px] font-bold text-rose-600 mt-1">
+                  <p className="text-[10px] font-bold text-rose-700 dark:text-rose-400 mt-1">
                     Kec. {ratioStats.lowest ? ratioStats.lowest.kecamatan : '-'}
                   </p>
                 </div>
@@ -451,12 +451,12 @@ const StatisticsPage: React.FC = () => {
                   <h4 className="text-3xl font-black text-slate-900 dark:text-white mt-1">
                     <Counter value={activeYearData?.total_faskes || 0} duration={1500} formatter={(val) => formatNumber(Math.floor(val))} />
                   </h4>
-                  <p className="text-[10px] font-bold text-sky-600 dark:text-sky-300 mt-1">
+                  <p className="text-[10px] font-bold text-sky-700 dark:text-sky-300 mt-1">
                     {t('stats.totalFaskesDesc')}
                   </p>
                 </div>
                 <div className="p-3 bg-sky-100 dark:bg-white/10 border border-sky-200 dark:border-white/10 rounded-2xl">
-                  <Building2 className="text-sky-600 dark:text-sky-300" size={20} />
+                  <Building2 className="text-sky-700 dark:text-sky-300" size={20} />
                 </div>
               </div>
 
@@ -464,6 +464,7 @@ const StatisticsPage: React.FC = () => {
               {(() => {
                 const ratioVal = activeKecamatanAnalysis?.rasio_scaled || 0;
                 const statusInfo = getStatusInfo(ratioVal, t);
+                const statusChip = statusChipColors(statusInfo.color);
                 return (
                   <div className="relative group">
                     {/* Circle Glow Aura behind the card */}
@@ -474,7 +475,7 @@ const StatisticsPage: React.FC = () => {
                       }}
                     />
                     <div 
-                      className="relative z-10 bg-white/70 backdrop-blur-xl border rounded-[28px] p-5 shadow-glass flex items-center justify-between transition-all hover:scale-[1.02] hover:shadow-md"
+                      className="relative z-10 bg-white/70 dark:bg-white/5 backdrop-blur-xl border rounded-[28px] p-5 shadow-glass flex items-center justify-between transition-all hover:scale-[1.02] hover:shadow-md"
                       style={{ borderColor: `${statusInfo.color}50` }}
                     >
                       <div>
@@ -482,13 +483,13 @@ const StatisticsPage: React.FC = () => {
                         <h4 className="text-3xl font-black text-slate-900 dark:text-white mt-1">
                           <Counter value={ratioVal} duration={1500} formatter={(val) => val.toFixed(3)} />
                         </h4>
-                        <p className="text-[10px] font-black mt-1" style={{ color: statusInfo.color }}>
+                        <p className="status-text text-[10px] font-black mt-1" style={statusTextVars(statusInfo.color)}>
                           Status: {statusInfo.label}
                         </p>
                       </div>
                       <div 
-                        className="p-3 rounded-2xl text-white shadow-md transition-all duration-300"
-                        style={{ backgroundColor: statusInfo.color }}
+                        className="p-3 rounded-2xl shadow-md transition-all duration-300"
+                        style={{ backgroundColor: statusChip.background, color: statusChip.color }}
                       >
                         <Activity size={20} />
                       </div>
@@ -504,7 +505,7 @@ const StatisticsPage: React.FC = () => {
                   <h4 className="text-3xl font-black text-slate-900 dark:text-white mt-1">
                     <Counter value={activeKecamatanAnalysis?.jumlah_penduduk || 0} duration={1500} formatter={(val) => formatNumber(Math.floor(val))} />
                   </h4>
-                  <p className="text-[10px] font-bold text-sky-600 dark:text-sky-300 mt-1">
+                  <p className="text-[10px] font-bold text-sky-700 dark:text-sky-300 mt-1">
                     {t('stats.populationDesc')}
                   </p>
                 </div>
@@ -520,7 +521,7 @@ const StatisticsPage: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           
           {/* 1. Persentase Faskes (Donut Chart - Cross-chart Hovers, spacing gaps, absolute hovering tooltip) */}
-          <div className="md:col-span-1 bg-gradient-to-br from-blue-600 to-sky-500 text-white rounded-[32px] p-6 shadow-xl relative overflow-hidden flex flex-col justify-between min-h-[460px] border border-sky-400 transition-all hover:shadow-2xl">
+          <div className="md:col-span-1 bg-gradient-to-br from-blue-600 to-sky-700 text-white rounded-[32px] p-6 shadow-xl relative overflow-hidden flex flex-col justify-between min-h-[460px] border border-sky-400 transition-all hover:shadow-2xl">
             {/* Background glowing pattern */}
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(255,255,255,0.15),_transparent_40%)] pointer-events-none" />
             
@@ -583,7 +584,7 @@ const StatisticsPage: React.FC = () => {
                 <span className="text-4xl font-black text-white tracking-tight">
                   <Counter value={activeYearData?.total_faskes || 0} duration={1500} formatter={(val) => formatNumber(Math.floor(val))} />
                 </span>
-                <span className="text-[10px] font-black uppercase tracking-wider text-blue-100 text-center mt-1">
+                <span className="text-[10px] font-black uppercase tracking-wider text-white text-center mt-1">
                   {t('stats.totalFaskesCenter')}
                 </span>
               </div>
@@ -620,7 +621,7 @@ const StatisticsPage: React.FC = () => {
                   <div 
                     key={type.name} 
                     className={`flex justify-between items-center py-2 border-b border-white/10 text-xs transition-all duration-200 cursor-pointer ${
-                      active ? 'bg-white/10 px-3 rounded-lg border-transparent translate-x-1 shadow-sm' : (selectedType ? 'opacity-50' : 'hover:bg-white/5 hover:px-2 rounded-lg')
+                      active ? 'bg-black/15 px-3 rounded-lg border-transparent translate-x-1 shadow-sm' : (selectedType ? 'opacity-50' : 'hover:bg-black/10 hover:px-2 rounded-lg')
                     }`}
                     onMouseEnter={() => setHoveredType(type.key)}
                     onMouseLeave={() => setHoveredType(null)}
@@ -637,7 +638,7 @@ const StatisticsPage: React.FC = () => {
                       <span className="font-bold text-slate-100">{type.name}</span>
                     </div>
                     {/* Modern pill background percentage wrapper */}
-                    <span className="font-black text-white bg-white/15 px-2 py-0.5 rounded-lg shadow-sm">
+                    <span className="font-black text-white bg-black/20 px-2 py-0.5 rounded-lg shadow-sm">
                       {(type.percentage * 100).toFixed(1)}%
                     </span>
                   </div>
@@ -667,9 +668,9 @@ const StatisticsPage: React.FC = () => {
                     const maxVal = Math.max(...barChartData.map(d => d.value), 5);
                     const value = Math.round(pct * maxVal);
                     return (
-                      <g key={i} className="opacity-40">
-                        <line x1="30" y1={y} x2="470" y2={y} stroke="#cbd5e1" strokeWidth="1" strokeDasharray="3 3" />
-                        <text x="15" y={y + 4} fill="#64748b" className="text-[10px] font-black text-right" textAnchor="end">{value}</text>
+                      <g key={i}>
+                        <line x1="30" y1={y} x2="470" y2={y} stroke="#cbd5e1" strokeWidth="1" strokeDasharray="3 3" className="opacity-40" />
+                        <text x="15" y={y + 4} fill="#64748b" className="fill-slate-500 dark:fill-slate-400 text-[10px] font-black text-right" textAnchor="end">{value}</text>
                       </g>
                     );
                   })}
@@ -719,8 +720,8 @@ const StatisticsPage: React.FC = () => {
                           x={bar.x + 18}
                           y={bar.y - 8}
                           textAnchor="middle"
-                          fill={active ? bar.color : "#0f172a"}
-                          className="text-[13px] font-black"
+                          fill={active ? bar.color : undefined}
+                          className={`text-[13px] font-black ${active ? '' : 'fill-slate-900 dark:fill-white'}`}
                           style={{
                             transformOrigin: `${bar.x + 18}px ${bar.y - 8}px`,
                             opacity: animReady ? ((selectedType && selectedType !== bar.key) ? 0.5 : 1) : 0,
@@ -735,9 +736,9 @@ const StatisticsPage: React.FC = () => {
                           x={bar.x + 18}
                           y="180"
                           textAnchor="middle"
-                          fill={active ? "#0f172a" : "#64748b"}
+                          fill={undefined}
                           className={`text-[12px] font-black uppercase tracking-wider ${
-                            active ? 'scale-105' : ''
+                            active ? 'fill-slate-900 dark:fill-white scale-105' : 'fill-slate-500 dark:fill-slate-400'
                           }`}
                           style={{
                             transformOrigin: `${bar.x + 18}px 180px`,
@@ -778,7 +779,7 @@ const StatisticsPage: React.FC = () => {
                         <g key={i} className="opacity-40">
                           <line x1="45" y1={y} x2="345" y2={y} stroke="#cbd5e1" strokeWidth="1" strokeDasharray="3 3" />
                           {/* Y-Axis Value Labels - ENLARGED to 12px */}
-                          <text x="35" y={y + 4} fill="#64748b" className="text-[12px] font-black text-right" textAnchor="end">{value}</text>
+                          <text x="35" y={y + 4} fill="#64748b" className="fill-slate-500 dark:fill-slate-400 text-[12px] font-black text-right" textAnchor="end">{value}</text>
                         </g>
                       );
                     })}
@@ -920,7 +921,7 @@ const StatisticsPage: React.FC = () => {
                           y="155"
                           textAnchor="middle"
                           fill="#64748b"
-                          className="text-[13px] font-black"
+                          className="fill-slate-500 dark:fill-slate-400 text-[13px] font-black"
                         >
                           {d.tahun}
                         </text>
@@ -930,15 +931,15 @@ const StatisticsPage: React.FC = () => {
                 </div>
 
                 {/* Legend on Right Side - Fully interactive hover/click synchronizations */}
-                <div className="flex flex-col gap-2 min-w-[130px] bg-slate-50 border border-sky-100 rounded-2xl p-3 shadow-inner self-stretch justify-center">
-                  <p className="text-[9px] uppercase tracking-wider text-slate-400 dark:text-slate-500 font-black mb-1.5 text-center">{t('stats.faskesType')}</p>
+                <div className="flex flex-col gap-2 min-w-[130px] bg-slate-50 dark:bg-white/5 border border-sky-100 dark:border-white/10 rounded-2xl p-3 shadow-inner self-stretch justify-center">
+                  <p className="text-[9px] uppercase tracking-wider text-slate-500 dark:text-slate-400 font-black mb-1.5 text-center">{t('stats.faskesType')}</p>
                   {trendLines.map(line => {
                     const active = isTypeActive(line.typeKey);
                     return (
                       <div 
                         key={line.label} 
                         className={`flex items-center gap-2 text-xs cursor-pointer p-1.5 rounded-xl transition-all duration-200 ${
-                          active ? 'bg-white border border-sky-200/60 scale-[1.03] shadow-sm' : (selectedType ? 'opacity-50' : 'hover:bg-slate-100')
+                          active ? 'bg-white dark:bg-white/10 border border-sky-200/60 dark:border-white/10 scale-[1.03] shadow-sm' : (selectedType ? 'opacity-50' : 'hover:bg-slate-100 dark:hover:bg-white/5')
                         }`}
                         onMouseEnter={() => setHoveredType(line.typeKey)}
                         onMouseLeave={() => setHoveredType(null)}
@@ -948,7 +949,7 @@ const StatisticsPage: React.FC = () => {
                           className="w-4 h-1.5 rounded-full" 
                           style={{ backgroundColor: line.color }} 
                         />
-                        <span className="font-bold text-slate-700">{line.label}</span>
+                        <span className="font-bold text-slate-700 dark:text-slate-200">{line.label}</span>
                       </div>
                     );
                   })}

@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import MapComponent from '../components/MapComponent';
 import DistrictRatioChart from '../components/DistrictRatioChart';
+import { statusChipColors } from '../utils/statusColor';
 import Counter from '../components/Counter';
 import { fetchAnalysis, fetchFaskes, fetchGeoJson } from '../api/gisApi';
 import { useNavigate } from 'react-router-dom';
@@ -158,19 +159,22 @@ const MapPage: React.FC = () => {
 
   const renderStatusCard = (compact = false) => (
     <div className={`group rounded-[${compact ? '24px' : '32px'}] border border-sky-400/30 dark:border-white/10 bg-white/80 dark:bg-white/5 ${compact ? 'p-4' : 'p-5'} shadow-glass backdrop-blur-xl transition-all duration-300 hover:bg-white/90 dark:hover:bg-white/10`}>
-      <p className="text-xs uppercase tracking-[0.28em] text-sky-600 dark:text-sky-300 font-black mb-3">{t('map.statusDistrict')}</p>
+      <p className="text-xs uppercase tracking-[0.28em] text-sky-700 dark:text-sky-300 font-black mb-3">{t('map.statusDistrict')}</p>
       <div className="flex items-center justify-between gap-2 mb-4">
         <h2 className="text-lg lg:text-xl font-black text-slate-900 dark:text-white truncate">
           {selectedDistrictData?.kecamatan ?? t('map.selectDistrict')}
         </h2>
-        {statusMeta && statusLabel && (
-          <span 
-            className={`rounded-2xl px-2.5 py-1 text-xs font-black uppercase tracking-wider text-white shadow-lg ${statusMeta.shadow}`}
-            style={{ backgroundColor: statusMeta.color }}
-          >
-            {statusLabel}
-          </span>
-        )}
+        {statusMeta && statusLabel && (() => {
+          const chip = statusChipColors(statusMeta.color);
+          return (
+            <span
+              className={`rounded-2xl px-2.5 py-1 text-xs font-black uppercase tracking-wider shadow-lg ${statusMeta.shadow}`}
+              style={{ backgroundColor: chip.background, color: chip.color }}
+            >
+              {statusLabel}
+            </span>
+          );
+        })()}
       </div>
       <div className="space-y-3">
         <div className="flex justify-between items-center py-2 border-b border-sky-200/30 dark:border-white/10">
@@ -179,7 +183,7 @@ const MapPage: React.FC = () => {
             {selectedDistrictData ? <Counter value={selectedDistrictData.rasio_scaled} formatter={(val) => val.toFixed(3)} /> : '-'}
           </span>
         </div>
-        <p className="text-xs text-sky-600/60 dark:text-sky-300/60 italic font-black">
+        <p className="text-xs text-slate-500 dark:text-slate-400 italic font-black">
           {t('map.dataBasedOnYear')} {selectedYear}
         </p>
       </div>
@@ -189,20 +193,20 @@ const MapPage: React.FC = () => {
   const renderStatCards = (compact = false) => (
     <div className={`grid ${compact ? 'grid-cols-2 gap-3' : 'grid-cols-1 gap-4'}`}>
       <div className={`group rounded-[${compact ? '20px' : '28px'}] border border-sky-400/30 dark:border-white/10 bg-white/80 dark:bg-white/5 ${compact ? 'p-3.5' : 'p-5'} shadow-glass backdrop-blur-xl`}>
-        <p className="text-[10px] lg:text-xs uppercase tracking-[0.28em] text-sky-600 dark:text-sky-300 font-black mb-1 lg:mb-2">{t('map.totalPopulation')}</p>
+        <p className="text-[10px] lg:text-xs uppercase tracking-[0.28em] text-sky-700 dark:text-sky-300 font-black mb-1 lg:mb-2">{t('map.totalPopulation')}</p>
         <p className={`${compact ? 'text-lg' : 'text-2xl'} font-black text-slate-900 dark:text-white`}>
           <Counter value={selectedDistrictData?.jumlah_penduduk ?? totalPopulation ?? 0} formatter={formatNumber} />
         </p>
-        <p className="mt-1 text-[10px] lg:text-xs font-black text-sky-600/50 dark:text-sky-300/50 uppercase tracking-widest truncate">
+        <p className="mt-1 text-[10px] lg:text-xs font-black text-slate-500 dark:text-slate-400 uppercase tracking-widest truncate">
           {selectedDistrictData ? `${t('map.kecamatanPrefix')} ${selectedDistrictData.kecamatan}` : t('map.entireSurabaya')}
         </p>
       </div>
       <div className={`group rounded-[${compact ? '20px' : '28px'}] border border-sky-400/30 dark:border-white/10 bg-white/80 dark:bg-white/5 ${compact ? 'p-3.5' : 'p-5'} shadow-glass backdrop-blur-xl`}>
-        <p className="text-[10px] lg:text-xs uppercase tracking-[0.28em] text-sky-600 dark:text-sky-300 font-black mb-1 lg:mb-2">{t('map.totalFacilities')}</p>
+        <p className="text-[10px] lg:text-xs uppercase tracking-[0.28em] text-sky-700 dark:text-sky-300 font-black mb-1 lg:mb-2">{t('map.totalFacilities')}</p>
         <p className={`${compact ? 'text-lg' : 'text-2xl'} font-black text-slate-900 dark:text-white`}>
           <Counter value={selectedDistrictData ? (selectedDistrictData.total_faskes_count ?? selectedDistrictData.total_fasilitas ?? 0) : totalFacilities} formatter={formatNumber} />
         </p>
-        <p className="mt-1 text-[10px] lg:text-xs font-black text-sky-600/50 dark:text-sky-300/50 uppercase tracking-widest truncate">
+        <p className="mt-1 text-[10px] lg:text-xs font-black text-slate-500 dark:text-slate-400 uppercase tracking-widest truncate">
           {selectedDistrictData ? `${selectedDistrictData.total_fasilitas} ${t('map.faskesAvailable')}` : t('map.totalInSurabaya')}
         </p>
       </div>
@@ -211,7 +215,7 @@ const MapPage: React.FC = () => {
 
   const renderChartCard = (compact = false) => (
     <div className={`group rounded-[${compact ? '24px' : '32px'}] border border-sky-400/30 dark:border-white/10 bg-white/80 dark:bg-white/5 ${compact ? 'p-4' : 'p-5'} shadow-glass backdrop-blur-xl`}>
-      <p className="text-xs uppercase tracking-[0.28em] text-sky-600 dark:text-sky-300 font-black mb-3 lg:mb-4">{t('map.ratioPerYear')}</p>
+      <p className="text-xs uppercase tracking-[0.28em] text-sky-700 dark:text-sky-300 font-black mb-3 lg:mb-4">{t('map.ratioPerYear')}</p>
       <div className="h-[150px] lg:h-[180px]">
         <DistrictRatioChart data={selectedDistrictHistory} selectedYear={selectedYear} />
       </div>
@@ -221,9 +225,9 @@ const MapPage: React.FC = () => {
   const renderBreakdownCard = (compact = false) => (
     <div className={`group rounded-[${compact ? '24px' : '32px'}] border border-sky-400/30 dark:border-white/10 bg-white/80 dark:bg-white/5 ${compact ? 'p-4' : 'p-6'} shadow-glass backdrop-blur-xl`}>
       <div className="flex items-center justify-between mb-4 lg:mb-5">
-        <p className="text-xs uppercase tracking-[0.24em] text-sky-600 dark:text-sky-300 font-black">{t('map.breakdownFaskes')}</p>
+        <p className="text-xs uppercase tracking-[0.24em] text-sky-700 dark:text-sky-300 font-black">{t('map.breakdownFaskes')}</p>
         {selectedDistrictData && (
-          <span className="text-[11px] lg:text-xs font-black text-white bg-sky-500 border border-sky-400 px-2 py-1 rounded-lg uppercase shadow-md truncate max-w-[120px]">
+          <span className="text-[11px] lg:text-xs font-black text-white bg-sky-700 border border-sky-500 px-2 py-1 rounded-lg uppercase shadow-md truncate max-w-[120px]">
             {selectedDistrictData.kecamatan}
           </span>
         )}
@@ -245,13 +249,13 @@ const MapPage: React.FC = () => {
           ))
         ) : (
           <div className="py-6 text-center">
-            <p className="text-xs lg:text-sm text-sky-400 dark:text-sky-300 italic font-black">{t('map.selectDistrictHint')}</p>
+            <p className="text-xs lg:text-sm text-sky-700 dark:text-sky-300 italic font-black">{t('map.selectDistrictHint')}</p>
           </div>
         )}
       </div>
       <button 
         onClick={() => navigate(selectedDistrict ? `/statistics/${encodeURIComponent(selectedDistrict)}` : '/statistics')}
-        className="mt-4 lg:mt-6 w-full flex items-center justify-center gap-2 rounded-2xl bg-white dark:bg-white/10 border border-sky-200 dark:border-white/10 py-3 text-sm font-black text-sky-700 dark:text-sky-300 hover:bg-sky-500 hover:text-white transition-colors active:scale-[0.98]"
+        className="mt-4 lg:mt-6 w-full flex items-center justify-center gap-2 rounded-2xl bg-white dark:bg-white/10 border border-sky-200 dark:border-white/10 py-3 text-sm font-black text-sky-700 dark:text-sky-300 hover:bg-sky-700 hover:text-white transition-colors active:scale-[0.98]"
       >
         {t('map.viewDetail')}
         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -290,7 +294,7 @@ const MapPage: React.FC = () => {
         {renderBreakdownCard()}
       </div>
       <div className="hidden lg:flex absolute left-1/2 -translate-x-1/2 bottom-6 z-20 w-fit flex-col gap-3 rounded-[28px] border border-sky-400/30 dark:border-white/10 bg-white/80 dark:bg-slate-900/60 p-4 shadow-glass backdrop-blur-xl">
-        <p className="text-xs text-center font-black uppercase tracking-[0.2em] text-sky-600 dark:text-sky-300">{t('map.ratioScale')}</p>
+        <p className="text-xs text-center font-black uppercase tracking-[0.2em] text-sky-700 dark:text-sky-300">{t('map.ratioScale')}</p>
         <div className="flex items-center gap-4 px-2">
           {RATIO_SCALE.map(({ label, color }) => (
             <div key={label} onClick={() => setHighlightedRange(highlightedRange === label ? null : label)} className="flex flex-col items-center gap-1.5 group cursor-pointer">
@@ -311,7 +315,7 @@ const MapPage: React.FC = () => {
           {renderBreakdownCard(true)}
           {/* Legend horizontal scroll */}
           <div className="rounded-[20px] border border-sky-400/30 dark:border-white/10 bg-white/80 dark:bg-slate-900/60 p-3 shadow-glass backdrop-blur-xl">
-            <p className="text-[10px] text-center font-black uppercase tracking-[0.2em] text-sky-600 dark:text-sky-300 mb-2">{t('map.ratioScale')}</p>
+            <p className="text-[10px] text-center font-black uppercase tracking-[0.2em] text-sky-700 dark:text-sky-300 mb-2">{t('map.ratioScale')}</p>
             <div className="flex items-center gap-3 overflow-x-auto custom-scrollbar pb-1 snap-x px-1">
               {RATIO_SCALE.map(({ label, color }) => (
                 <div key={label} onClick={() => setHighlightedRange(highlightedRange === label ? null : label)} className="flex flex-col items-center gap-1 shrink-0 snap-center cursor-pointer min-w-[56px]">

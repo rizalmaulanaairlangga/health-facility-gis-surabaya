@@ -91,7 +91,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             <Menu size={20} className={`absolute text-slate-600 dark:text-slate-300 transition-all duration-300 transform ${isSidebarOpen ? 'opacity-0 rotate-90 scale-50' : 'opacity-100 rotate-0 scale-100'}`} />
             <X size={20} className={`absolute text-slate-600 dark:text-slate-300 transition-all duration-300 transform ${isSidebarOpen ? 'opacity-100 rotate-0 scale-100' : 'opacity-0 -rotate-90 scale-50'}`} />
           </button>
-          <div className="p-2 bg-sky-500 rounded-xl shadow-sky-200 shadow-lg ml-1 lg:ml-2 hidden sm:flex shrink-0">
+          <div className="p-2 bg-sky-600 rounded-xl shadow-sky-200 shadow-lg ml-1 lg:ml-2 hidden sm:flex shrink-0">
             <MapIcon className="text-white" size={20} />
           </div>
           {/* Judul website TIDAK diterjemahkan — 2 baris di layar kecil */}
@@ -109,9 +109,9 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                     : 'border-sky-200/50 dark:border-white/10 bg-white/40 dark:bg-white/5 hover:border-sky-300 dark:hover:bg-white/10'
                 }`}
               >
-                <span className="hidden sm:inline text-xs font-black uppercase tracking-[0.2em] text-sky-500/70 dark:text-sky-300/70">{t('header.year')}</span>
+                <span className="hidden sm:inline text-xs font-black uppercase tracking-[0.2em] text-sky-700 dark:text-sky-300">{t('header.year')}</span>
                 <span className="text-sm font-black text-slate-900 dark:text-white">{selectedYear === 'all' ? t('header.all') : selectedYear}</span>
-                <ChevronDown className={`h-4 w-4 text-sky-400 transition-transform duration-300 ${isDropdownOpen ? 'rotate-180 text-sky-600' : 'group-hover:text-sky-600'}`} strokeWidth={2.5} />
+                <ChevronDown className={`h-4 w-4 text-sky-600 dark:text-sky-400 transition-transform duration-300 ${isDropdownOpen ? 'rotate-180 text-sky-700 dark:text-sky-300' : 'group-hover:text-sky-700 dark:group-hover:text-sky-300'}`} strokeWidth={2.5} />
               </button>
 
               {isDropdownOpen && (
@@ -125,7 +125,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                         }}
                         className={`w-full text-left px-4 py-2.5 rounded-[14px] text-[13px] font-black transition-all ${
                           selectedYear === 'all' 
-                            ? 'bg-sky-500 text-white shadow-lg shadow-sky-100' 
+                            ? 'bg-sky-700 text-white shadow-lg shadow-sky-100' 
                             : 'text-slate-600 dark:text-slate-300 hover:bg-sky-50 dark:hover:bg-white/10 hover:text-sky-700'
                         }`}
                       >
@@ -141,7 +141,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                         }}
                         className={`w-full text-left px-4 py-2.5 rounded-[14px] text-[13px] font-black transition-all ${
                           selectedYear === year 
-                            ? 'bg-sky-500 text-white shadow-lg shadow-sky-100' 
+                            ? 'bg-sky-700 text-white shadow-lg shadow-sky-100' 
                             : 'text-slate-600 dark:text-slate-300 hover:bg-sky-50 dark:hover:bg-white/10 hover:text-sky-700'
                         }`}
                       >
@@ -160,8 +160,8 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 to={item.path}
                 className={`flex items-center gap-2 px-3 lg:px-5 py-2 rounded-xl text-sm font-black transition-all duration-300 ${
                   location.pathname === item.path
-                    ? 'bg-white dark:bg-sky-500 text-sky-600 dark:text-white shadow-md border border-sky-100 dark:border-sky-400'
-                    : 'text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-white/70 dark:hover:bg-white/10'
+                    ? 'bg-white dark:bg-sky-700 text-sky-700 dark:text-white shadow-md border border-sky-100 dark:border-sky-400'
+                    : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-white/70 dark:hover:bg-white/10'
                 }`}
               >
                 <item.icon size={18} strokeWidth={2.5} />
@@ -176,12 +176,12 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             <div className="hidden xl:flex items-center gap-2 bg-white/40 dark:bg-white/5 backdrop-blur-xl p-1.5 rounded-2xl border border-sky-200/40 dark:border-white/10 shadow-sm">
               {/* Language */}
               <div className="flex items-center gap-1 bg-slate-100/60 dark:bg-black/20 rounded-xl p-1 border border-slate-200/30 dark:border-white/5">
-                <Languages size={14} className="text-slate-400 ml-1.5" />
+                <Languages size={14} className="text-slate-500 dark:text-slate-400 ml-1.5" />
                 {(['id','en'] as const).map(l => (
                   <button
                     key={l}
                     onClick={() => setLang(l)}
-                    className={`px-2.5 py-1 rounded-lg text-[11px] font-black uppercase tracking-widest transition-all ${lang===l ? 'bg-sky-500 text-white shadow' : 'text-slate-500 dark:text-slate-400 hover:text-sky-600'}`}
+                    className={`px-2.5 py-1 rounded-lg text-[11px] font-black uppercase tracking-widest transition-all ${lang===l ? 'bg-sky-700 text-white shadow' : 'text-slate-600 dark:text-slate-400 hover:text-sky-700'}`}
                   >
                     {l}
                   </button>
@@ -198,7 +198,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                     key={v}
                     onClick={() => setTheme(v)}
                     title={v}
-                    className={`p-1.5 rounded-lg transition-all ${theme===v ? 'bg-white dark:bg-white/15 text-sky-600 dark:text-sky-300 shadow border border-sky-100 dark:border-white/10' : 'text-slate-400 hover:text-slate-700 dark:hover:text-white'}`}
+                    className={`p-1.5 rounded-lg transition-all ${theme===v ? 'bg-white dark:bg-white/15 text-sky-700 dark:text-sky-300 shadow border border-sky-100 dark:border-white/10' : 'text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-white'}`}
                   >
                     <Icon size={15} strokeWidth={2.5} />
                   </button>
@@ -216,7 +216,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 >
                   <Eye size={14} className="text-sky-500/70 dark:text-sky-300/70" />
                   <span className="text-[11px] font-black text-slate-900 dark:text-white max-w-[90px] truncate">{t(a11yOptions.find(o=>o.value===mode)?.labelKey || 'a11y.normal')}</span>
-                  <ChevronDown className={`h-3.5 w-3.5 text-sky-400 transition-transform duration-300 ${isA11yOpen ? 'rotate-180 text-sky-600' : 'group-hover:text-sky-600'}`} strokeWidth={2.5} />
+                  <ChevronDown className={`h-3.5 w-3.5 text-sky-600 dark:text-sky-400 transition-transform duration-300 ${isA11yOpen ? 'rotate-180 text-sky-700 dark:text-sky-300' : 'group-hover:text-sky-700 dark:group-hover:text-sky-300'}`} strokeWidth={2.5} />
                 </button>
                 {isA11yOpen && (
                   <div className="absolute top-[calc(100%+8px)] right-0 min-w-[200px] bg-white/90 dark:bg-slate-800/90 backdrop-blur-xl rounded-[20px] shadow-[0_10px_40px_rgba(0,0,0,0.12)] border border-sky-100 dark:border-white/10 py-2 z-[1001]">
@@ -227,7 +227,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                           onClick={() => { setMode(o.value); setIsA11yOpen(false); }}
                           className={`w-full text-left px-4 py-2.5 rounded-[14px] text-[13px] font-black transition-all ${
                             mode === o.value
-                              ? 'bg-sky-500 text-white shadow-lg shadow-sky-100'
+                              ? 'bg-sky-700 text-white shadow-lg shadow-sky-100'
                               : 'text-slate-600 dark:text-slate-300 hover:bg-sky-50 dark:hover:bg-white/10 hover:text-sky-700'
                           }`}
                         >
@@ -252,41 +252,41 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             {isSettingsOpen && (
               <div className="xl:hidden absolute top-[calc(100%+8px)] right-0 w-72 bg-white/95 dark:bg-slate-800/95 backdrop-blur-xl rounded-[24px] shadow-2xl border border-sky-100 dark:border-white/10 p-4 z-[1001] space-y-4">
                 <div>
-                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-sky-500 dark:text-sky-300 mb-2 flex items-center gap-1.5"><Languages size={12}/> {t('header.language')}</p>
+                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-sky-700 dark:text-sky-300 mb-2 flex items-center gap-1.5"><Languages size={12}/> {t('header.language')}</p>
                   <div className="flex gap-2">
                     {(['id','en'] as const).map(l => (
-                      <button key={l} onClick={() => setLang(l)} className={`flex-1 py-2.5 rounded-xl text-xs font-black uppercase tracking-widest border transition-all ${lang===l ? 'bg-sky-500 text-white border-sky-400 shadow' : 'bg-white dark:bg-white/5 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-white/10'}`}>{l === 'id' ? 'Indonesia' : 'English'}</button>
+                      <button key={l} onClick={() => setLang(l)} className={`flex-1 py-2.5 rounded-xl text-xs font-black uppercase tracking-widest border transition-all ${lang===l ? 'bg-sky-700 text-white border-sky-400 shadow' : 'bg-white dark:bg-white/5 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-white/10'}`}>{l === 'id' ? 'Indonesia' : 'English'}</button>
                     ))}
                   </div>
                 </div>
                 <div>
-                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-sky-500 dark:text-sky-300 mb-2 flex items-center gap-1.5"><Sun size={12}/> {t('header.theme')}</p>
+                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-sky-700 dark:text-sky-300 mb-2 flex items-center gap-1.5"><Sun size={12}/> {t('header.theme')}</p>
                   <div className="grid grid-cols-3 gap-2">
                     {[
                       { v:'light' as const, icon: Sun, label: t('theme.light') },
                       { v:'dark' as const, icon: Moon, label: t('theme.dark') },
                       { v:'system' as const, icon: Monitor, label: t('theme.system') },
                     ].map(({v,icon:Icon,label}) => (
-                      <button key={v} onClick={() => setTheme(v)} className={`flex flex-col items-center gap-1 py-2.5 rounded-xl border text-[11px] font-black transition-all ${theme===v ? 'bg-sky-500 text-white border-sky-400' : 'bg-white dark:bg-white/5 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-white/10'}`}>
+                      <button key={v} onClick={() => setTheme(v)} className={`flex flex-col items-center gap-1 py-2.5 rounded-xl border text-[11px] font-black transition-all ${theme===v ? 'bg-sky-700 text-white border-sky-400' : 'bg-white dark:bg-white/5 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-white/10'}`}>
                         <Icon size={16} />{label}
                       </button>
                     ))}
                   </div>
-                  <p className="text-[10px] text-slate-400 dark:text-slate-500 mt-1">{theme==='system' ? 'Mengikuti device' : ''}</p>
+                  <p className="text-[10px] text-slate-600 dark:text-slate-400 mt-1">{theme==='system' ? 'Mengikuti device' : ''}</p>
                 </div>
                 <div>
-                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-sky-500 dark:text-sky-300 mb-2 flex items-center gap-1.5"><Eye size={12}/> {t('a11y.filterTitle')}</p>
-                  <p className="text-[11px] text-slate-500 dark:text-slate-400 mb-2">{t('a11y.filterDesc')}</p>
+                  <p className="text-[10px] font-black uppercase tracking-[0.2em] text-sky-700 dark:text-sky-300 mb-2 flex items-center gap-1.5"><Eye size={12}/> {t('a11y.filterTitle')}</p>
+                  <p className="text-[11px] text-slate-600 dark:text-slate-400 mb-2">{t('a11y.filterDesc')}</p>
                   <div className="grid grid-cols-1 gap-1.5">
                     {a11yOptions.map(o => (
-                      <button key={o.value} onClick={() => setMode(o.value)} className={`text-left px-3 py-2 rounded-xl text-xs font-bold border transition-all ${mode===o.value ? 'bg-sky-500 text-white border-sky-400' : 'bg-white dark:bg-white/5 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-white/10 hover:border-sky-200'}`}>{t(o.labelKey)}</button>
+                      <button key={o.value} onClick={() => setMode(o.value)} className={`text-left px-3 py-2 rounded-xl text-xs font-bold border transition-all ${mode===o.value ? 'bg-sky-700 text-white border-sky-400' : 'bg-white dark:bg-white/5 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-white/10 hover:border-sky-200'}`}>{t(o.labelKey)}</button>
                     ))}
                   </div>
                 </div>
                 {/* Mobile nav */}
                 <div className="md:hidden pt-3 border-t border-slate-200 dark:border-white/10 flex gap-2">
                   {navItems.map(item => (
-                    <Link key={item.path} to={item.path} onClick={()=>setIsSettingsOpen(false)} className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-black border ${location.pathname===item.path ? 'bg-sky-500 text-white border-sky-400' : 'bg-white dark:bg-white/5 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-white/10'}`}><item.icon size={14}/>{t(item.key)}</Link>
+                    <Link key={item.path} to={item.path} onClick={()=>setIsSettingsOpen(false)} className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-black border ${location.pathname===item.path ? 'bg-sky-700 text-white border-sky-400' : 'bg-white dark:bg-white/5 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-white/10'}`}><item.icon size={14}/>{t(item.key)}</Link>
                   ))}
                 </div>
               </div>
@@ -300,7 +300,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <div ref={sidebarRef} className={`absolute top-16 left-0 h-[calc(100vh-64px)] bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl border-r border-sky-200/30 dark:border-white/10 z-[900] transition-transform duration-300 ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} w-72 shadow-2xl`}>
           <div className="p-6 h-full flex flex-col justify-between overflow-y-auto custom-scrollbar">
             <div>
-              <h2 className="text-xs font-black text-sky-500 dark:text-sky-300 uppercase tracking-widest mb-6">{t('sidebar.analysis')}</h2>
+              <h2 className="text-xs font-black text-sky-700 dark:text-sky-300 uppercase tracking-widest mb-6">{t('sidebar.analysis')}</h2>
               <div className="space-y-3">
                 
                 <div>
@@ -308,7 +308,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                     onClick={() => setIsStatistikOpen(!isStatistikOpen)}
                     className={`w-full flex items-center justify-between px-4 py-3.5 rounded-2xl font-black transition-all ${
                       location.pathname.startsWith('/statistics')
-                        ? 'bg-sky-500 text-white shadow-lg shadow-sky-100'
+                        ? 'bg-sky-700 text-white shadow-lg shadow-sky-100'
                         : 'text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-white/5 hover:text-slate-900 dark:hover:text-white border border-transparent hover:border-slate-200 dark:hover:border-white/10'
                     }`}
                   >
@@ -336,7 +336,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                       
                       <div className="relative py-2 flex items-center justify-center">
                         <div className="w-full border-t border-sky-200/50 dark:border-white/10"></div>
-                        <span className="absolute bg-white dark:bg-slate-900 px-2 text-[9px] font-black uppercase text-sky-400 tracking-widest">{t('sidebar.district')}</span>
+                        <span className="absolute bg-white dark:bg-slate-900 px-2 text-[9px] font-black uppercase text-sky-700 dark:text-sky-400 tracking-widest">{t('sidebar.district')}</span>
                       </div>
 
                       {kecamatanList.map((kec) => (
@@ -346,7 +346,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                           onClick={() => setIsSidebarOpen(false)}
                           className={`block px-4 py-2 rounded-xl text-xs font-black transition-all truncate ${
                             activeKecamatan === kec
-                              ? 'text-sky-600 dark:text-sky-300 bg-sky-50 dark:bg-white/10 font-black'
+                              ? 'text-sky-700 dark:text-sky-300 bg-sky-100 dark:bg-white/10 font-black'
                               : 'text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-50 dark:hover:bg-white/5'
                           }`}
                         >
@@ -375,7 +375,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         </div>
         <button
           onClick={() => window.alert(t('map.aboutAlert'))}
-          className="flex items-center justify-center w-12 h-12 rounded-full bg-white dark:bg-slate-800 border border-sky-200 dark:border-white/10 shadow-lg shadow-sky-100 dark:shadow-black/20 text-sky-500 dark:text-sky-300 transition-all duration-300 hover:bg-sky-500 hover:text-white hover:border-sky-400 hover:scale-110 active:scale-95"
+          className="flex items-center justify-center w-12 h-12 rounded-full bg-white dark:bg-slate-800 border border-sky-200 dark:border-white/10 shadow-lg shadow-sky-100 dark:shadow-black/20 text-sky-700 dark:text-sky-300 transition-all duration-300 hover:bg-sky-700 hover:text-white hover:border-sky-400 hover:scale-110 active:scale-95"
           aria-label="About"
         >
           <HelpCircle size={24} strokeWidth={2.5} />

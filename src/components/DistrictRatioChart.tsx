@@ -37,7 +37,7 @@ const DistrictRatioChart: React.FC<DistrictRatioChartProps> = ({ data, selectedY
   }, [data, selectedYear]);
 
   if (!data.length) {
-    return <p className="text-sm text-slate-400 dark:text-slate-500">{t('stats.noRatioData')}</p>;
+    return <p className="text-sm text-slate-500 dark:text-slate-400">{t('stats.noRatioData')}</p>;
   }
 
   const width = 320;
@@ -75,8 +75,8 @@ const DistrictRatioChart: React.FC<DistrictRatioChartProps> = ({ data, selectedY
         </defs>
 
         {/* Grid Lines */}
-        <line x1={leftPadding} y1={topPadding} x2={width - rightPadding} y2={topPadding} stroke="#e2e8f0" strokeDasharray="4 4" />
-        <line x1={leftPadding} y1={height - bottomPadding} x2={width - rightPadding} y2={height - bottomPadding} stroke="#e2e8f0" strokeWidth="1" />
+        <line x1={leftPadding} y1={topPadding} x2={width - rightPadding} y2={topPadding} stroke="#e2e8f0" strokeDasharray="4 4" className="dark:stroke-white/15" />
+        <line x1={leftPadding} y1={height - bottomPadding} x2={width - rightPadding} y2={height - bottomPadding} stroke="#e2e8f0" strokeWidth="1" className="dark:stroke-white/15" />
 
         <path 
           d={linePath} 
@@ -123,12 +123,12 @@ const DistrictRatioChart: React.FC<DistrictRatioChartProps> = ({ data, selectedY
         )})}
 
         {points.map((point) => (
-          <text key={`label-${point.tahun}`} x={point.x} y={height - 8} textAnchor="middle" className={`text-[11px] font-bold ${selectedYear === point.tahun ? 'fill-sky-600 dark:fill-sky-300' : 'fill-slate-400 dark:fill-sky-300/70'}`}>
+          <text key={`label-${point.tahun}`} x={point.x} y={height - 8} textAnchor="middle" className={`text-[11px] font-bold ${selectedYear === point.tahun ? 'fill-sky-700 dark:fill-sky-300' : 'fill-slate-500 dark:fill-sky-300/70'}`}>
             {point.tahun}
           </text>
         ))}
 
-        <text x="0" y="14" className="text-[10px] font-black uppercase tracking-wider fill-sky-600 dark:fill-sky-300">
+        <text x="0" y="14" className="text-[10px] font-black uppercase tracking-wider fill-sky-700 dark:fill-sky-300">
           {t('stats.ratioPer1000')}
         </text>
       </svg>

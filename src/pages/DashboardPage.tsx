@@ -3,6 +3,7 @@ import { fetchAnalysis } from '../api/gisApi';
 import type { AnalysisData } from '../types';
 import { useHeader } from '../context/HeaderContext';
 import { useLanguage, getStatusKey } from '../context/LanguageContext';
+import { statusTextVars } from '../utils/statusColor';
 
 type SortField = 'default' | 'facilities' | 'population' | 'status';
 type SortDirection = 'desc' | 'asc';
@@ -62,7 +63,7 @@ const DashboardPage: React.FC = () => {
   const totalFasilitas = targetData.reduce((acc, curr) => acc + (curr.total_fasilitas ?? 0), 0);
 
   return (
-    <div className="pt-24 p-4 lg:p-8 h-full overflow-y-auto bg-gradient-to-br from-[#EEF4FF] via-[#F1F6FF] to-[#ffffff] dark:from-[#0B1120] dark:via-[#131C2E] dark:to-[#0F172A] text-slate-800 dark:text-slate-100 font-['Poppins']">
+    <div className="px-4 lg:px-8 pt-20 lg:pt-24 h-full overflow-y-auto bg-gradient-to-br from-[#EEF4FF] via-[#F1F6FF] to-[#ffffff] dark:from-[#0B1120] dark:via-[#131C2E] dark:to-[#0F172A] text-slate-800 dark:text-slate-100 font-['Poppins']">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-xl lg:text-2xl font-black bg-gradient-to-r from-slate-900 to-sky-700 dark:from-white dark:to-sky-300 bg-clip-text text-transparent mb-6">
           {t('dashboard.title')} ({displayYearText})
@@ -94,7 +95,7 @@ const DashboardPage: React.FC = () => {
 
               {/* Direction filter */}
               <div className="flex items-center gap-2">
-                <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t('dashboard.order')}</span>
+                <span className="text-[10px] font-black text-slate-500 dark:text-slate-400 uppercase tracking-widest">{t('dashboard.order')}</span>
                 <div className="flex rounded-xl overflow-hidden border border-sky-200 dark:border-white/10 shadow-sm">
                   {(['desc', 'asc'] as SortDirection[]).map((dir) => (
                     <button
@@ -102,7 +103,7 @@ const DashboardPage: React.FC = () => {
                       onClick={() => setSortDir(dir)}
                       className={`px-3 py-1.5 text-xs font-black transition-all ${
                         sortDir === dir
-                          ? 'bg-sky-500 text-white'
+                          ? 'bg-sky-700 text-white'
                           : 'bg-white dark:bg-white/5 text-slate-500 dark:text-slate-400 hover:bg-sky-50 dark:hover:bg-white/10 hover:text-sky-700'
                       }`}
                     >
@@ -114,7 +115,7 @@ const DashboardPage: React.FC = () => {
 
               {/* Field filter */}
               <div className="flex items-center gap-2">
-                <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{t('dashboard.data')}</span>
+                <span className="text-[10px] font-black text-slate-500 dark:text-slate-400 uppercase tracking-widest">{t('dashboard.data')}</span>
                 <div className="flex flex-wrap rounded-xl overflow-hidden border border-sky-200 dark:border-white/10 shadow-sm">
                   {([
                     { value: 'default', label: t('dashboard.default') },
@@ -127,7 +128,7 @@ const DashboardPage: React.FC = () => {
                       onClick={() => setSortBy(opt.value)}
                       className={`px-3 py-1.5 text-xs font-black transition-all ${
                         sortBy === opt.value
-                          ? 'bg-sky-500 text-white'
+                          ? 'bg-sky-700 text-white'
                           : 'bg-white dark:bg-white/5 text-slate-500 dark:text-slate-400 hover:bg-sky-50 dark:hover:bg-white/10 hover:text-sky-700'
                       }`}
                     >
@@ -183,8 +184,8 @@ const DashboardPage: React.FC = () => {
                     <td className="px-6 py-4 font-black text-sky-700 dark:text-sky-300">{item.rasio_scaled.toFixed(3)}</td>
                     <td className="px-6 py-4">
                       <span 
-                        className="inline-flex items-center px-3 py-1 rounded-xl text-[11px] font-black uppercase tracking-wider shadow-sm"
-                        style={{ backgroundColor: `${item.warna}22`, color: item.warna, border: `1px solid ${item.warna}40` }}
+                        className="status-text inline-flex items-center px-3 py-1 rounded-xl text-[11px] font-black uppercase tracking-wider shadow-sm"
+                        style={{ ...statusTextVars(item.warna), backgroundColor: `${item.warna}22`, border: `1px solid ${item.warna}40` }}
                       >
                         {t(getStatusKey(item.rasio_scaled))}
                       </span>

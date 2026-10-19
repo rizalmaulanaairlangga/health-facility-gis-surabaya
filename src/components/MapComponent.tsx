@@ -6,6 +6,7 @@ import type { AnalysisData, GeoJsonData } from '../types';
 import { useLanguage } from '../context/LanguageContext';
 import { useTheme } from '../context/ThemeContext';
 import { useAccessibility } from '../context/AccessibilityContext';
+import { statusTextOnLight, statusTextOnDark } from '../utils/statusColor';
 
 interface MapComponentProps {
   geoData: GeoJsonData;
@@ -146,7 +147,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
         <p class="text-sm font-black text-slate-900 dark:text-white mb-0.5">${kecamatanName}</p>
         <div class="flex items-center gap-2">
           <span class="w-2 h-2 rounded-full" style="background-color: ${color}"></span>
-          <p class="text-[10px] font-black uppercase tracking-wider text-slate-500">${statusLabel}</p>
+          <p class="text-[10px] font-black uppercase tracking-wider text-slate-500 dark:text-slate-400">${statusLabel}</p>
         </div>
       </div>
     `, {
@@ -162,8 +163,8 @@ const MapComponent: React.FC<MapComponentProps> = ({
         <!-- Header -->
         <div class="px-4 pt-4 pb-3 flex items-start justify-between gap-3">
           <div class="min-w-0">
-            <h4 class="text-[16px] sm:text-lg font-black text-slate-900 leading-tight truncate pr-2">${kecamatanName}</h4>
-            <div class="mt-1 inline-flex items-center gap-1.5 rounded-full border px-2 py-0.5 text-[10px] font-black uppercase tracking-widest" style="background:${color}14; border-color:${color}30; color:${color}">
+            <h4 class="text-[16px] sm:text-lg font-black text-slate-900 dark:text-white leading-tight truncate pr-2">${kecamatanName}</h4>
+            <div class="mt-1 inline-flex items-center gap-1.5 rounded-full border px-2 py-0.5 text-[10px] font-black uppercase tracking-widest status-text" style="background:${color}14; border-color:${color}30; --status-on-light:${statusTextOnLight(color)}; --status-on-dark:${statusTextOnDark(color)}">
               <span class="w-1.5 h-1.5 rounded-full" style="background:${color}"></span>
               ${statusLabel}
             </div>
@@ -173,30 +174,30 @@ const MapComponent: React.FC<MapComponentProps> = ({
         <!-- Stats grid - 2 cols on mobile -->
         <div class="px-4 grid grid-cols-2 gap-2">
           <div class="rounded-2xl bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/10 p-3">
-            <p class="text-[9px] font-black uppercase tracking-[0.14em] text-slate-400">${t('common.year')}</p>
+            <p class="text-[9px] font-black uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">${t('common.year')}</p>
             <p class="text-[13px] font-black text-slate-900 dark:text-white mt-1">${selectedYear}</p>
           </div>
           <div class="rounded-2xl bg-slate-50 dark:bg-white/5 border border-slate-100 dark:border-white/10 p-3">
-            <p class="text-[9px] font-black uppercase tracking-[0.14em] text-slate-400">${t('dashboard.totalFacilities')}</p>
+            <p class="text-[9px] font-black uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">${t('dashboard.totalFacilities')}</p>
             <p class="text-[13px] font-black text-slate-900 dark:text-white mt-1">${analysis?.total_fasilitas ?? '0'}</p>
           </div>
           <div class="col-span-2 rounded-2xl bg-sky-50 dark:bg-sky-500/10 border border-sky-100 dark:border-sky-400/20 p-3 flex items-center justify-between">
             <div>
-              <p class="text-[9px] font-black uppercase tracking-[0.14em] text-sky-600/70 dark:text-sky-300/70">${t('map.totalPopulation')}</p>
+              <p class="text-[9px] font-black uppercase tracking-[0.14em] text-sky-700 dark:text-sky-300">${t('map.totalPopulation')}</p>
               <p class="text-[13px] font-black text-slate-900 dark:text-white mt-1">${analysis?.jumlah_penduduk ? analysis.jumlah_penduduk.toLocaleString(locale) : 'N/A'}</p>
             </div>
-            <div class="w-8 h-8 rounded-xl bg-sky-500 flex items-center justify-center text-white shadow-sm">👥</div>
+            <div class="w-8 h-8 rounded-xl bg-sky-600 flex items-center justify-center text-white shadow-sm">👥</div>
           </div>
         </div>
         <!-- Ratio highlight -->
-        <div class="mx-4 mt-3 rounded-2xl bg-gradient-to-br from-sky-500 to-sky-400 dark:from-sky-600 dark:to-sky-500 p-3.5 flex items-center justify-between text-white shadow-md">
+        <div class="mx-4 mt-3 rounded-2xl bg-gradient-to-br from-sky-700 to-blue-600 p-3.5 flex items-center justify-between text-white shadow-md">
           <div class="flex items-center gap-2">
             <span class="w-7 h-7 rounded-xl bg-white/20 flex items-center justify-center text-[12px]">◈</span>
-            <span class="text-[10px] font-black uppercase tracking-[0.16em] text-white/90">${t('map.ratioFaskes')}</span>
+            <span class="text-[10px] font-black uppercase tracking-[0.16em] text-white">${t('map.ratioFaskes')}</span>
           </div>
           <span class="text-[15px] font-black tracking-tight">${ratio ? ratio.toFixed(4) : 'N/A'}</span>
         </div>
-        <p class="px-4 py-2.5 text-[10px] text-center font-bold text-slate-400">${t('map.viewDetail')} →</p>
+        <p class="px-4 py-2.5 text-[10px] text-center font-bold text-slate-500 dark:text-slate-400">${t('map.viewDetail')} →</p>
       </div>
     `, {
       className: 'custom-leaflet-popup',
